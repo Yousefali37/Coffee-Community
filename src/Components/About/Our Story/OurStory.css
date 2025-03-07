@@ -1,0 +1,31 @@
+.story-section {
+    background-color: #92430b;
+    padding: 5rem 2rem;
+    color: rgb(255, 255, 235);
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+}
+
+.story-section h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+.story-section p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+    max-width: 48.00rem;
+    font-family: "inter", sans-serif;
+}
+
+@media (min-width: 640px) {
+    .story-section {
+        padding: 1rem 1.5rem;
+    }
+}

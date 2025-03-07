@@ -1,0 +1,195 @@
+/* Hero Section */
+.hero-section {
+    position: relative;
+    min-height: fit-content;
+    /* background-color: #fff5e1; */
+    background-color: #ede3db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.0rem;
+    flex-direction: column;
+    padding: 3rem 1rem;
+}
+
+/* Text Styles */
+.hero-text h1 {
+    color: #8b4513;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.hero-text h1 span {
+    color: #4a2c12;
+}
+
+.hero-text p {
+    text-align: center;
+    color: #4a4a40;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.hero-buttons button {
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #8b4513;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background-color: #6e3210;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #8b4513;
+    border: 2px solid #8b4513;
+}
+
+.btn-secondary:hover {
+    background-color: #8b4513;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.btn-primary, .btn-secondary {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:active, .btn-secondary:active {
+    transform: scale(0.95);
+}
+
+.btn-primary::after, .btn-secondary::after {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+}
+
+.btn-primary:active::after, .btn-secondary:active::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+
+
+/* Hero Image */
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-image img {
+    max-width: 130px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.hero-image img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+.start-quiz {
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
+    background-color: #8b4513;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.start-quiz:hover {
+    background-color: #6e3210;
+    transform: scale(1.05);
+}
+
+.start-quiz:active {
+    transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding-top: 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons button {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    .hero-image img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons button {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .hero-image img {
+        max-width: 130px;
+    }
+}

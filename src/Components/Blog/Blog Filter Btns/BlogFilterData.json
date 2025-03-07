@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "All Posts"
+    },
+    {
+        "id": 2,
+        "title": "Sustainability"
+    },
+    {
+        "id": 3,
+        "title": "Coffee Beans"
+    },
+    {
+        "id": 4,
+        "title": "History"
+    },
+    {
+        "id": 5,
+        "title": "Brewing Methods"
+    },
+    {
+        "id": 6,
+        "title": "Brewing Tips"
+    },
+    {
+        "id": 7,
+        "title": "Roasting"
+    },
+    {
+        "id": 8,
+        "title": "Barista Skills"
+    },
+    {
+        "id": 9,
+        "title": "Health"
+    },
+    {
+        "id": 10,
+        "title": "Cold Brew"
+    }
+]

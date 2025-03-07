@@ -1,0 +1,56 @@
+.recipe-type {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.6rem;
+    background: linear-gradient(90deg, #fff5e1, #ffe8c4);
+    color: #8b4513;
+    border: 1px solid #ffd699;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.blog-section-img img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.blog-content .blog-title {
+    color: rgb(17, 24, 39);
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 1rem;
+}
+
+.blog-content .blog-desc {
+    color: rgba(107, 114, 128, 0.9);
+    font-size: 1.025rem;
+    margin-bottom: 1.5rem;
+}
+
+.blog-meta {    
+    color: rgba(107, 114, 128, 0.9);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.read-article {
+    color: white;
+    background-color: #8b4513;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.read-article:hover {
+    color: white;
+    background-color: #6b2c0f;
+}
+
+.read-article:active {
+    transform: scale(0.95);
+    background-color: #8b4513;
+}

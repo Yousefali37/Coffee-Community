@@ -1,0 +1,74 @@
+.footer {
+    background-color: #8b4513;
+    padding: 60px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.footerTitle h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    margin-bottom: 8px;
+}
+
+.footerText p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff5e1;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footerInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerInput input {
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    outline: none;
+    width: 280px;
+    transition: background 0.3s ease;
+}
+
+.footerInput input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footerInput input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.footerButton button {
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.footerButton button:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    text-decoration: underline;
+}

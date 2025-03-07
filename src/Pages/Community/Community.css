@@ -1,0 +1,22 @@
+.community-wrapper {
+    background: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.community-sidebar {
+    position: sticky;
+    top: 80px;
+    max-width: 75%;
+}
+
+.community-content {
+    padding: 2rem 9rem;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .community-sidebar {
+        position: static;
+    }
+}

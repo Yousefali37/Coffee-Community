@@ -1,0 +1,31 @@
+/* Filter Icon */
+.filterIcon {
+    font-size: 1rem;
+    color: #8b4513;
+}
+
+/* Compact Select Dropdown */
+.form-select-sm {
+    min-width: 130px;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.form-select-sm:focus {
+    border-color: #8b4513;
+    outline: none;
+}
+
+/* Compact Search Bar */
+.input-group-sm .input-group-text {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 6px 0 0 6px;
+}
+
+.input-group-sm .form-control {
+    border-radius: 0 6px 6px 0;
+}

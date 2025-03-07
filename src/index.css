@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+}
+
+html {
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--primary-font);
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f8f5f2;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+/* @media screen and (max-width: 768px) {
+    
+} */

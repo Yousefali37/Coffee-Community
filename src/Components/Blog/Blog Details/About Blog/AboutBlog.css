@@ -1,0 +1,83 @@
+.about-blog {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-blog:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Author Info */
+.author-info {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.author-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.author-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.meta-info p {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Buttons */
+.about-btns {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.about-btns button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about-btns .share-blog:active , .about-btns .save-blog:active {
+    transform: scale(0.95);
+}
+
+.about-btns .share-blog {
+    background-color: transparent;
+    color: #8b4513;
+    border: 1px solid #8b4513;
+}
+
+.about-btns button:hover {
+    transform: scale(1.05);
+}
+
+.share-blog:hover {
+    background-color: #8b4513;
+    color: white;
+}

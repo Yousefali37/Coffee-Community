@@ -1,0 +1,222 @@
+[
+    {
+        "id": "1",
+        "type": "pour over",
+        "level": "beginner",
+        "time": "5 min",
+        "timeinwords": "short",
+        "title": "Classic Pour-Over Coffee",
+        "desc": "A clean and crisp cup of coffee using the pour-over method",
+        "img": "/Classic-Pour-Over-Coffee.jpg",
+        "featured": false
+    },
+    {
+        "id": "2",
+        "type": "espresso",
+        "level": "beginner",
+        "time": "10 min",
+        "timeinwords": "medium",
+        "title": "Espresso Macchiato",
+        "desc": "A rich and bold espresso shot with a dollop of steamed milk",
+        "img": "/espresso.jpg",
+        "featured": false
+    },
+    {
+        "id": "3",
+        "type": "cold brew",
+        "level": "intermediate",
+        "time": "12 hr",
+        "timeinwords": "long",
+        "title": "Cold Brew Coffee",
+        "desc": "A smooth and refreshing coffee brewed with cold water",
+        "img": "/ice-coffee-2.jpg",
+        "featured": false
+    },
+    {
+        "id": "4",
+        "type": "Aeropress",
+        "level": "beginner",
+        "time": "5 min",
+        "timeinwords": "short",
+        "title": "Aeropress Coffee",
+        "desc": "A full-bodied cup of coffee using the Aeropress method",
+        "img": "/aeropress.jpg",
+        "featured": false
+    },
+    {
+        "id": "5",
+        "type": "French Press",
+        "level": "beginner",
+        "time": "5 min",
+        "timeinwords": "short",
+        "title": "French Press Coffee",
+        "desc": "A rich and bold cup of coffee using the French Press method",
+        "img": "/french-press.jpg",
+        "featured": false
+    },
+    {
+        "id": "6",
+        "type": "Moka Pot",
+        "level": "beginner",
+        "time": "10 min",
+        "timeinwords": "medium",
+        "title": "Moka Pot Coffee",
+        "desc": "A strong and flavorful cup of coffee using the Moka Pot method",
+        "img": "/moka-pot.jpg",
+        "featured": false
+    },
+    {
+        "id": "7",
+        "type": "Turkish Coffee",
+        "level": "advanced",
+        "time": "15 min",
+        "timeinwords": "medium",
+        "title": "Traditional Turkish Coffee",
+        "desc": "A rich and strong coffee brewed in a cezve with fine grounds",
+        "img": "/turkish-coffee.jpg",
+        "featured": true
+    },
+    {
+        "id": "8",
+        "type": "drip coffee",
+        "level": "beginner",
+        "time": "8 min",
+        "timeinwords": "medium",
+        "title": "Classic Drip Coffee",
+        "desc": "A smooth and balanced coffee brewed using a drip machine",
+        "img": "/drip-coffee.jpg",
+        "featured": false
+    },
+    {
+        "id": "9",
+        "type": "cold brew",
+        "level": "intermediate",
+        "time": "16 hr",
+        "timeinwords": "long",
+        "title": "Vanilla Cold Brew",
+        "desc": "A sweet and creamy cold brew infused with vanilla",
+        "img": "/vanilla-cold-brew.jpg",
+        "featured": true
+    },
+    {
+        "id": "10",
+        "type": "espresso",
+        "level": "intermediate",
+        "time": "5 min",
+        "timeinwords": "short",
+        "title": "Flat White",
+        "desc": "A creamy and smooth espresso-based drink with steamed milk",
+        "img": "/flat-white.jpg",
+        "featured": false
+    },
+    {
+        "id": "11",
+        "type": "Vietnamese Coffee",
+        "level": "intermediate",
+        "time": "10 min",
+        "timeinwords": "short",
+        "title": "Vietnamese Egg Coffee",
+        "desc": "A unique coffee topped with a creamy egg mixture",
+        "img": "/vietnamese-coffee.jpg",
+        "featured": false
+    },
+    {
+        "id": "12",
+        "type": "pour over",
+        "level": "beginner",
+        "time": "6 min",
+        "timeinwords": "medium",
+        "title": "Hario V60 Pour-Over",
+        "desc": "A bright and aromatic pour-over coffee using the Hario V60",
+        "img": "/hario-v60.jpg",
+        "featured": false
+    },
+    {
+        "id": "13",
+        "type": "espresso",
+        "level": "beginner",
+        "time": "5 min",
+        "timeinwords": "short",
+        "title": "Cortado",
+        "desc": "A balanced espresso drink with equal parts steamed milk",
+        "img": "/cortado.jpg",
+        "featured": false
+    },
+    {
+        "id": "14",
+        "type": "espresso",
+        "level": "advanced",
+        "time": "15 min",
+        "timeinwords": "medium",
+        "title": "Affogato",
+        "desc": "A delicious dessert coffee with espresso poured over ice cream",
+        "img": "/affogato.jpg",
+        "featured": false
+    },
+    {
+        "id": "15",
+        "type": "French Press",
+        "level": "beginner",
+        "time": "4 min",
+        "timeinwords": "short",
+        "title": "French Press Dark Roast",
+        "desc": "A bold and deep-flavored French Press coffee",
+        "img": "/french-press-dark.jpg",
+        "featured": false
+    },
+    {
+        "id": "16",
+        "type": "Moka Pot",
+        "level": "intermediate",
+        "time": "12 min",
+        "timeinwords": "medium",
+        "title": "Italian Moka Coffee",
+        "desc": "A traditional strong coffee made with a stovetop Moka Pot",
+        "img": "/italian-moka.jpg",
+        "featured": false
+    },
+    {
+        "id": "17",
+        "type": "cold brew",
+        "level": "beginner",
+        "time": "12 hr",
+        "timeinwords": "long",
+        "title": "Chocolate Cold Brew",
+        "desc": "A chocolate-infused cold brew coffee for a sweet twist",
+        "img": "/chocolate-cold-brew.jpg",
+        "featured": false
+    },
+    {
+        "id": "18",
+        "type": "espresso",
+        "level": "beginner",
+        "time": "7 min",
+        "timeinwords": "medium",
+        "title": "Café Latte",
+        "desc": "A classic latte with steamed milk and espresso",
+        "img": "/cafe-latte.jpg",
+        "featured": false
+    },
+    {
+        "id": "19",
+        "type": "Aeropress",
+        "level": "intermediate",
+        "time": "6 min",
+        "timeinwords": "medium",
+        "title": "Aeropress Iced Coffee",
+        "desc": "A refreshing iced coffee brewed with the Aeropress",
+        "img": "/Aeropress Iced Coffee.jpg",
+        "featured": true
+    },
+    {
+        "id": "20",
+        "type": "Turkish Coffee",
+        "level": "advanced",
+        "time": "12 min",
+        "timeinwords": "medium",
+        "title": "Spiced Turkish Coffee",
+        "desc": "A fragrant Turkish coffee infused with cinnamon and cardamom",
+        "img": "/spiced-turkish-coffee.jpg",
+        "featured": false
+    }
+]

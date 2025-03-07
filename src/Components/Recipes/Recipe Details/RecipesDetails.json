@@ -1,0 +1,263 @@
+[
+    {
+        "id": "1",
+        "type": "pour over",
+        "level": "beginner",
+        "time": "5 min",
+        "title": "Classic Pour-Over Coffee",
+        "desc": "A clean and crisp cup of coffee using the pour-over method",
+        "img": "/public/hero-section-2.svg",
+        "ingredients": [
+            "22g medium-fine ground coffee",
+            "350ml filtered water (96°C)",
+            "Paper filter"
+        ],
+        "instructions": [
+            "Rinse paper filter with hot water and discard water.",
+            "Add ground coffee to filter.",
+            "Pour 50ml water for blooming and wait 30 seconds.",
+            "Slowly pour the remaining water in a circular motion.",
+            "Let the coffee drip completely and serve."
+        ]
+    },
+    {
+        "id": "2",
+        "type": "espresso",
+        "level": "beginner",
+        "time": "10 min",
+        "title": "Espresso Macchiato",
+        "desc": "A rich and bold espresso shot with a dollop of steamed milk",
+        "img": "/public/espresso-2.jpg",
+        "ingredients": [
+            "18g finely ground coffee",
+            "30ml hot water",
+            "Steamed milk (a small amount)"
+        ],
+        "instructions": [
+            "Grind coffee beans finely and tamp them into the portafilter.",
+            "Lock the portafilter into the espresso machine and start extraction.",
+            "Pull a 30ml espresso shot.",
+            "Steam a small amount of milk until foamy.",
+            "Spoon a dollop of steamed milk on top of the espresso and serve."
+        ]
+    },
+    {
+        "id": "3",
+        "type": "cold brew",
+        "level": "intermediate",
+        "time": "12 hr",
+        "title": "Cold Brew Coffee",
+        "desc": "A smooth and refreshing coffee brewed with cold water",
+        "img": "/public/ice-coffee-2.svg",
+        "ingredients": [
+            "100g coarsely ground coffee",
+            "1L cold filtered water"
+        ],
+        "instructions": [
+            "Add ground coffee to a jar or cold brew maker.",
+            "Pour cold water over the coffee and stir gently.",
+            "Cover and let it steep in the fridge for 12-24 hours.",
+            "Strain the coffee using a fine mesh or filter.",
+            "Serve over ice and dilute with water or milk if desired."
+        ]
+    },
+    {
+        "id": "4",
+        "type": "Aeropress",
+        "level": "beginner",
+        "time": "5 min",
+        "title": "Aeropress Coffee",
+        "desc": "A full-bodied cup of coffee using the Aeropress method",
+        "img": "",
+        "ingredients": [
+            "15g medium-fine ground coffee",
+            "250ml hot water (85-90°C)"
+        ],
+        "instructions": [
+            "Insert a filter into the Aeropress cap and rinse with hot water.",
+            "Add ground coffee to the Aeropress.",
+            "Pour half of the hot water, stir, and let bloom for 30 seconds.",
+            "Add the rest of the water and stir again.",
+            "Insert the plunger and press down slowly to extract coffee."
+        ]
+    },
+    {
+        "id": "5",
+        "type": "French Press",
+        "level": "beginner",
+        "time": "5 min",
+        "title": "French Press Coffee",
+        "desc": "A rich and bold cup of coffee using the French Press method",
+        "img": "",
+        "ingredients": [
+            "30g coarsely ground coffee",
+            "500ml hot water (90-95°C)"
+        ],
+        "instructions": [
+            "Add ground coffee to the French Press.",
+            "Pour half of the hot water, stir, and let it bloom for 30 seconds.",
+            "Add the rest of the water and cover with the lid.",
+            "Let it steep for 4 minutes.",
+            "Press the plunger down slowly and serve."
+        ]
+    },
+    {
+        "id": "6",
+        "type": "Moka Pot",
+        "level": "beginner",
+        "time": "10 min",
+        "title": "Moka Pot Coffee",
+        "desc": "A strong and flavorful cup of coffee using the Moka Pot method",
+        "img": "",
+        "ingredients": [
+            "18g finely ground coffee",
+            "200ml water"
+        ],
+        "instructions": [
+            "Fill the bottom chamber of the Moka Pot with water up to the safety valve.",
+            "Place finely ground coffee into the filter basket and level it.",
+            "Assemble the Moka Pot and place it on medium heat.",
+            "Wait for the coffee to brew and fill the upper chamber.",
+            "Remove from heat, stir, and serve immediately."
+        ]
+    },
+    {
+        "id": "7",
+        "type": "Turkish Coffee",
+        "level": "intermediate",
+        "time": "7 min",
+        "title": "Traditional Turkish Coffee",
+        "desc": "A strong, unfiltered coffee with a rich aroma and foam",
+        "img": "/public/turkish-coffee.jpg",
+        "ingredients": [
+            "10g finely ground Turkish coffee",
+            "100ml cold water",
+            "Sugar (optional)"
+        ],
+        "instructions": [
+            "Add coffee, water, and sugar (if desired) to a cezve.",
+            "Stir well before heating.",
+            "Heat slowly over low heat until foam starts forming.",
+            "Before boiling, remove from heat and pour foam into cups.",
+            "Return to heat, let it foam again, then pour the remaining coffee into cups."
+        ]
+    },
+    {
+        "id": "8",
+        "type": "Cappuccino",
+        "level": "intermediate",
+        "time": "10 min",
+        "title": "Creamy Cappuccino",
+        "desc": "A perfect balance of espresso, steamed milk, and foam",
+        "img": "/public/cappuccino.jpg",
+        "ingredients": [
+            "1 shot espresso",
+            "120ml steamed milk",
+            "60ml milk foam"
+        ],
+        "instructions": [
+            "Brew a single shot of espresso and pour it into a cup.",
+            "Steam milk until it reaches a smooth, velvety texture.",
+            "Pour steamed milk over the espresso.",
+            "Top with a thick layer of milk foam.",
+            "Optionally, sprinkle cocoa or cinnamon on top."
+        ]
+    },
+    {
+        "id": "9",
+        "type": "Flat White",
+        "level": "intermediate",
+        "time": "8 min",
+        "title": "Smooth Flat White",
+        "desc": "A velvety espresso-based drink with microfoam milk",
+        "img": "/public/flat-white.jpg",
+        "ingredients": [
+            "1 shot espresso",
+            "150ml steamed milk"
+        ],
+        "instructions": [
+            "Brew a single or double shot of espresso.",
+            "Steam milk to create a smooth microfoam texture.",
+            "Gently pour the milk over the espresso.",
+            "Ensure a balance between coffee strength and milk texture."
+        ]
+    },
+    {
+        "id": "10",
+        "type": "Iced Latte",
+        "level": "beginner",
+        "time": "5 min",
+        "title": "Refreshing Iced Latte",
+        "desc": "A chilled coffee with espresso, milk, and ice",
+        "img": "/public/iced-latte.jpg",
+        "ingredients": [
+            "1 shot espresso",
+            "200ml cold milk",
+            "Ice cubes"
+        ],
+        "instructions": [
+            "Brew a shot of espresso and let it cool slightly.",
+            "Fill a glass with ice cubes.",
+            "Pour cold milk over the ice.",
+            "Add the espresso and stir gently before serving."
+        ]
+    },
+    {
+        "id": "11",
+        "type": "Affogato",
+        "level": "beginner",
+        "time": "3 min",
+        "title": "Italian Affogato",
+        "desc": "A simple dessert of vanilla ice cream with hot espresso",
+        "img": "/public/affogato.jpg",
+        "ingredients": [
+            "1 shot espresso",
+            "1 scoop vanilla ice cream"
+        ],
+        "instructions": [
+            "Scoop vanilla ice cream into a small cup or bowl.",
+            "Brew a fresh shot of espresso.",
+            "Pour the hot espresso over the ice cream.",
+            "Enjoy immediately as the ice cream melts."
+        ]
+    },
+    {
+        "id": "12",
+        "type": "Ristretto",
+        "level": "advanced",
+        "time": "5 min",
+        "title": "Strong Ristretto Shot",
+        "desc": "A short, intense espresso with less water",
+        "img": "/public/ristretto.jpg",
+        "ingredients": [
+            "18g finely ground coffee",
+            "15ml hot water"
+        ],
+        "instructions": [
+            "Grind coffee beans slightly finer than espresso grind.",
+            "Tamp the coffee firmly into the portafilter.",
+            "Extract with half the usual water for espresso.",
+            "Serve immediately in a small cup."
+        ]
+    },
+    {
+        "id": "13",
+        "type": "Vienna Coffee",
+        "level": "intermediate",
+        "time": "8 min",
+        "title": "Classic Vienna Coffee",
+        "desc": "Espresso topped with whipped cream for a sweet touch",
+        "img": "/public/vienna-coffee.jpg",
+        "ingredients": [
+            "1 shot espresso",
+            "Whipped cream",
+            "Chocolate shavings (optional)"
+        ],
+        "instructions": [
+            "Brew a shot of espresso.",
+            "Top with a generous amount of whipped cream.",
+            "Optionally, add chocolate shavings for extra flavor.",
+            "Serve hot and enjoy!"
+        ]
+    }
+]

@@ -1,0 +1,209 @@
+.community-post-container {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    margin: 2rem 0;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+    text-align: start;
+}
+
+.community-post-container:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.user-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffd699;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.user-avatar:hover {
+    transform: scale(1.1);
+    border-color: #8b4513;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.username:hover {
+    color: #8b4513;
+}
+
+.post-time {
+    font-size: 0.95rem;
+    color: #718096;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-category .recipe-type {
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #fff5e1, #ffe8c4);
+    color: #8b4513;
+    border: 1px solid #ffd699;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-category .recipe-type:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.post-content {
+    margin-bottom: 2.5rem;
+}
+
+.post-title h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a202c;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.4;
+    transition: color 0.3s ease;
+}
+
+.post-title h3:hover {
+    color: #8b4513;
+}
+
+.post-divider {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #e2e8f0, #ffd699, #e2e8f0);
+    margin: 2rem 0;
+    opacity: 0.8;
+}
+
+.post-description p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #4a5568;
+    margin: 0;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.additional-actions {
+    display: flex;
+    gap: 2rem;
+}
+
+.like-action,
+.comment-action,
+.favorite-action,
+.share-action {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #4a5568;
+    transition: all 0.3s ease;
+    padding: 0.6rem 1.2rem;
+    border-radius: 15px;
+}
+
+.like-action:hover,
+.comment-action:hover,
+.favorite-action:hover,
+.share-action:hover {
+    background: rgba(255, 214, 153, 0.15);
+    color: #8b4513;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.liked {
+    color: #8b4513;
+    font-weight: 600;
+}
+
+.fav {
+    color: #f83e05;
+    font-weight: 600;
+}
+
+.favorite-icon,
+.share-icon {
+    font-size: 1.4rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .community-post-container {
+        padding: 2rem;
+    }
+
+    .post-header {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .post-category .recipe-type {
+        font-size: 0.9rem;
+    }
+
+    .post-title h3 {
+        font-size: 1.8rem;
+    }
+
+    .post-description p {
+        font-size: 1.05rem;
+    }
+
+    .action-buttons {
+        gap: 2rem;
+    }
+
+    .additional-actions {
+        gap: 1.5rem;
+    }
+}

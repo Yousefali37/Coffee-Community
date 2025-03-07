@@ -1,0 +1,187 @@
+/* General Styling */
+.recipes-page {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.recipes-container {
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+/* Back Button */
+.back-button {
+    background: none;
+    border: none;
+    color: #8b4513;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.back-button:hover {
+    color: #7a3d14;
+}
+
+/* Recipe Title */
+.recipe-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: #8b4513;
+    margin: 1rem 0 0.5rem;
+}
+
+/* Heart Icon */
+.heart-icon {
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.heart-icon:hover {
+    color: #8b4513;
+    transform: scale(1.1);
+}
+
+.fav-icon-active {
+    color: #ff0000; /* Red color for favorited state */
+}
+
+/* Recipe Meta (Type, Time, Difficulty) */
+.recipe-meta {
+    font-size: 1rem;
+    color: #666;
+}
+
+.recipe-type {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.6rem;
+    background: linear-gradient(90deg, #fff5e1, #ffe8c4);
+    color: #8b4513;
+    border: 1px solid #ffd699;
+    font-weight: 500;
+}
+
+.recipe-time,
+.recipe-difficulty {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+/* Recipe Description */
+.recipe-desc {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Recipe Data (Ingredients and Instructions) */
+.recipe-data {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+/* Ingredients and Instructions Cards */
+.ingredients-card,
+.instructions-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 250px;
+}
+
+.ingredients-card h3,
+.instructions-card h3 {
+    font-size: 1.5rem;
+    color: #8b4513;
+    margin-bottom: 1rem;
+}
+
+.ingredients-card ul,
+.instructions-card ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients-card li,
+.instructions-card li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.ingredients-card li::before,
+.instructions-card li::before {
+    content: "•";
+    color: #8b4513;
+    position: absolute;
+    left: 0;
+}
+/* تخصيص شكل الأرقام */
+.instructions-card ol {
+    list-style-type: none;
+    counter-reset: step-counter;
+}
+
+.instructions-card ol li {
+    counter-increment: step-counter;
+    margin-bottom: 0.5rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.instructions-card ol li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #8b4513;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recipe-title {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .recipe-meta {
+        gap: 1rem;
+    }
+
+    .recipe-desc {
+        font-size: 1rem;
+    }
+
+    .ingredients-card h3,
+    .instructions-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .ingredients-card li,
+    .instructions-card li {
+        font-size: 0.9rem;
+    }
+}

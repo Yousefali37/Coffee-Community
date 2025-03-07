@@ -1,0 +1,45 @@
+.about-author {
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 2rem;
+}
+
+.about-author:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about-author h2 {
+    font-size: 1.5rem;
+    color: #111827;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.about-author h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+
+.about-author p {
+    font-size: 0.95rem;
+    color: #565f6c;
+    line-height: 1.5;
+}
+
+.about-author img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-author img:hover {
+    transform: scale(1.05);
+}

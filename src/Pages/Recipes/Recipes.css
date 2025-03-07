@@ -1,0 +1,55 @@
+/* أيقونة عائمة */
+.floating-quiz {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background: #b8860b;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.floating-quiz:hover {
+    background: #a1750a;
+}
+
+.quiz-tooltip {
+    position: absolute;
+    left: 70px;
+    bottom: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+}
+
+.floating-quiz:hover .quiz-tooltip {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.quiz-tooltip span {
+    color: #f4c430;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.quiz-tooltip span:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "username": "Coffee Explorer",
+        "avatar": "/pixelcut-export.jpeg",
+        "category": "Brewing",
+        "title": "My French Press Method",
+        "desc": "After years of experimentation, I've perfected my French press technique. It all starts with the right grind size - coarse, like sea salt. I use a 1:15 coffee-to-water ratio and steep for exactly 4 minutes. What's your preferred method?",
+        "content": "After years of experimentation, I've perfected my French press technique. It all starts with the right grind size - coarse, like sea salt. I use 1:15 coffee to water ratio and steep for exactly 4 minutes. \n Here's my step-by-step process: \n 1- Grind fresh beans to a coarse consistency Heat water to 200°F (93°C) \n 2- Add ground coffee to the French press Pour a small amount of water to bloom the coffee for 30 seconds \n 3- Add the remaining water and place the lid on with the plunger pulled up Wait exactly 4 minutes \n 4- Slowly press the plunger down Pour immediately into your cup to prevent over-extraction \n I've found this method consistently produces a full-bodied cup with rich flavors and minimal bitterness. The key factors are water temperature, grind consistency, and steep time. What French press techniques have worked well for you?",
+        "timestamp": "2 days",
+        "likes": 24,
+        "comments": 7,
+        "favorites": 10
+    },
+    {
+        "id": 2,
+        "username": "LatteLover",
+        "avatar": "/fleee.png",
+        "category": "Recipes",
+        "title": "Homemade Vanilla Latte",
+        "desc": "I just tried making my own vanilla latte at home, and it turned out amazing! I used vanilla syrup, steamed milk, and a shot of espresso. Does anyone have recommendations for the best vanilla syrup brands?",
+        "content": "After years of experimentation, I've perfected my French press technique. It all starts with the right grind size - coarse, like sea salt. I use 1:15 coffee to water ratio and steep for exactly 4 minutes. \n Here's my step-by-step process: \n 1- Grind fresh beans to a coarse consistency Heat water to 200°F (93°C) \n 2- Add ground coffee to the French press Pour a small amount of water to bloom the coffee for 30 seconds \n 3- Add the remaining water and place the lid on with the plunger pulled up Wait exactly 4 minutes \n 4- Slowly press the plunger down Pour immediately into your cup to prevent over-extraction \n I've found this method consistently produces a full-bodied cup with rich flavors and minimal bitterness. The key factors are water temperature, grind consistency, and steep time. What French press techniques have worked well for you?",
+        "timestamp": "1 day",
+        "likes": 15,
+        "comments": 5,
+        "favorites": 8
+    },
+    {
+        "id": 3,
+        "username": "EspressoKing",
+        "avatar": "/frank.png",
+        "category": "Equipment",
+        "title": "Best Espresso Machine Under $500?",
+        "desc": "I'm looking for an espresso machine that delivers great shots but is budget-friendly. Any recommendations? Preferably something easy to maintain.",
+        "content": "After years of experimentation, I've perfected my French press technique. It all starts with the right grind size - coarse, like sea salt. I use 1:15 coffee to water ratio and steep for exactly 4 minutes. \n Here's my step-by-step process: \n 1- Grind fresh beans to a coarse consistency Heat water to 200°F (93°C) \n 2- Add ground coffee to the French press Pour a small amount of water to bloom the coffee for 30 seconds \n 3- Add the remaining water and place the lid on with the plunger pulled up Wait exactly 4 minutes \n 4- Slowly press the plunger down Pour immediately into your cup to prevent over-extraction \n I've found this method consistently produces a full-bodied cup with rich flavors and minimal bitterness. The key factors are water temperature, grind consistency, and steep time. What French press techniques have worked well for you?",
+        "timestamp": "3 days",
+        "likes": 32,
+        "comments": 12,
+        "favorites": 14
+    },
+    {
+        "id": 4,
+        "username": "DarkRoastFan",
+        "avatar": "/doug.webp",
+        "category": "Coffee Beans",
+        "title": "Best Dark Roast Beans?",
+        "desc": "I'm on the hunt for the perfect dark roast beans. I love a bold, chocolatey flavor with a hint of caramel. Any suggestions?",
+        "content": "After years of experimentation, I've perfected my French press technique. It all starts with the right grind size - coarse, like sea salt. I use 1:15 coffee to water ratio and steep for exactly 4 minutes. \n Here's my step-by-step process: \n 1- Grind fresh beans to a coarse consistency Heat water to 200°F (93°C) \n 2- Add ground coffee to the French press Pour a small amount of water to bloom the coffee for 30 seconds \n 3- Add the remaining water and place the lid on with the plunger pulled up Wait exactly 4 minutes \n 4- Slowly press the plunger down Pour immediately into your cup to prevent over-extraction \n I've found this method consistently produces a full-bodied cup with rich flavors and minimal bitterness. The key factors are water temperature, grind consistency, and steep time. What French press techniques have worked well for you?",
+        "timestamp": "5 days",
+        "likes": 18,
+        "comments": 6,
+        "favorites": 9
+    }
+]

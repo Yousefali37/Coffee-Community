@@ -1,0 +1,37 @@
+.about-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.about-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-icon {
+    font-size: 1.8rem;
+    color: #8b4513;
+    margin-bottom: 0.8rem;
+}
+
+.about-title h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #8b4513;
+    margin-bottom: 0.5rem;
+}
+
+.about-description p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+}

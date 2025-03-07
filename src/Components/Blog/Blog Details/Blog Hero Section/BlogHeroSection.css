@@ -1,0 +1,38 @@
+.blog-hero-section {
+    min-height: 40vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
+                url("/blog-hero-placeholder.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: start;
+    color: #fff;
+}
+
+.blog-action {
+    max-width: 100%;
+    padding: 0rem 12rem;
+}
+
+.blog-action h1 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.blog-action .back-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.back-button:hover {
+    color: #7a3d14;
+}

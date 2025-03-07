@@ -1,0 +1,13 @@
+.might-like {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.might-like h4 {
+    text-align: start;
+    color: #8b4513;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
