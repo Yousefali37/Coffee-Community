@@ -10,6 +10,7 @@
     max-width: 100%;
     min-height: 550px;
     margin: auto;
+    padding: 2rem;
 }
 
 /* Form Containers */
@@ -77,8 +78,8 @@
 }
 
 .auth-overlay {
-    background: linear-gradient(170deg, transparent 0%, #7a3d14 100%),
-        url('./Auth-1.jpg') no-repeat;
+    background: linear-gradient(170deg, transparent 0%, #141414 100%),
+        url('https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350285/Auth-1_lif8ge.jpg') no-repeat;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -329,7 +330,7 @@
 
 /* Links */
 .auth-link {
-    color: #6e3210; /* Dark brown for links */
+    color: #6e3210;
     font-size: 14px;
     text-decoration: none;
     margin: 15px 0;
@@ -341,6 +342,7 @@
         width: 100%;
         min-height: 100vh;
         border-radius: 0;
+        padding: 1rem;
     }
 
     .auth-sign-in-container,
@@ -350,5 +352,18 @@
 
     .auth-overlay-container {
         display: none;
+    }
+
+    .auth-button {
+        padding: 0.5rem 1rem;
+    }
+
+    .auth-input {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .auth-social-link {
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }

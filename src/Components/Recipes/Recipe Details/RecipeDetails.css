@@ -1,8 +1,4 @@
 /* General Styling */
-.recipes-page {
-    min-height: 100vh;
-    padding: 1rem;
-}
 
 .recipes-container {
     border-radius: 12px;
@@ -130,6 +126,7 @@
     position: absolute;
     left: 0;
 }
+
 /* تخصيص شكل الأرقام */
 .instructions-card ol {
     list-style-type: none;
@@ -162,13 +159,13 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .recipes-container {
+        padding: 1rem;
+    }
+
     .recipe-title {
         font-size: 1.75rem;
         line-height: 2rem;
-    }
-
-    .recipe-meta {
-        gap: 1rem;
     }
 
     .recipe-desc {
@@ -183,5 +180,15 @@
     .ingredients-card li,
     .instructions-card li {
         font-size: 0.9rem;
+    }
+
+    .recipe-data {
+        gap: 1rem;
+    }
+
+    .ingredients-card,
+    .instructions-card {
+        padding: 1rem;
+        min-width: auto;
     }
 }

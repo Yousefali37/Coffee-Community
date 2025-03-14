@@ -11,11 +11,11 @@ function FeaturedRecipes() {
     })
 
     return (
-        <div className={`${styles['featuredSection']}`}>
+        <div className={`${styles['featuredSection']} cssanimation fadeIn`}>
             <div className={`${styles['featuredSectionTitle']}`}>
                 <h1>Featured Recipes</h1>
             </div>
-            <div className='container d-flex justify-content-around align-items-center flex-wrap gap-2'>
+            <div className='container d-flex justify-content-around align-items-center flex-wrap gap-2 cssanimation fadeIn'>
                 {
                     filteredRecipes.map((recipe) => {
                         return (

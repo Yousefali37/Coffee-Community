@@ -1,0 +1,178 @@
+/* General Header Styles */
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255, 255, 0.8);
+    padding: 7px 5%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.rem;
+    font-weight: bold;
+    color: #8b4513;
+    text-decoration: none;
+}
+
+.logoImage {
+    width: 35px;
+    margin-right: 8px;
+}
+
+/* Navigation */
+.nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navList li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #4a4a40;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.navList li a:hover {
+    color: #8b4513;
+    transform: scale(1.05);
+}
+
+.nav-link:active {
+    background-color: transparent;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons a, .moonIcon {
+    font-size: 1.1rem;
+    color: #4a4a40;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    transition: color 0.3s ease-in-out;
+}
+
+.icons a:hover, .moonIcon:hover {
+    color: #8b4513;
+}
+
+/* Profile Dropdown */
+.profileBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #4a4a40;
+}
+
+/* Dropdown Menu */
+.dropdownMenu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 220px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Dropdown Links */
+.dropdownMenu a {
+    text-decoration: none;
+    color: #4a4a40;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    transition: background 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.dropdownMenu a:hover {
+    background: rgba(139, 69, 19, 0.1);
+}
+
+/* Icons Row */
+.iconsRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+/* .iconsRow a, .moonIcon {
+    font-size: 1.4rem;
+    color: #4a4a40;
+    transition: color 0.3s ease-in-out;
+}
+
+.iconsRow a:hover, .moonIcon:hover {
+    color: #8b4513;
+} */
+
+/* Sign In Button */
+.loginBtn {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white !important;
+    background: #8b4513;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.loginBtn:hover {
+    background: #6a3b1a !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}

@@ -42,8 +42,12 @@ function Recipes() {
         setSearchQuery(query);
     };
 
+    const handleLoadLessClick = () => {
+        setCardsNo(3);
+    };
+
     return (
-        <div className="pb-5 recipes">
+        <div className="pb-5 recipes cssanimation fadeIn">
             <HeroSection
                 title="Coffee Recipes"
                 text="Discover and master various coffee brewing methods with our detailed recipes"
@@ -54,7 +58,7 @@ function Recipes() {
                 onSearchChange={handleSearchChange}
             />
             <hr />
-            <div className="row justify-content-center align-items-center gap-4 fade-in">
+            <div className="row justify-content-center align-items-center gap-4 cssanimation fadeIn">
                 {filteredRecipes.slice(0, cardsNo).map((recipe) => (
                     <RecipesCard
                         key={recipe.id}
@@ -67,11 +71,21 @@ function Recipes() {
                     />
                 ))}
             </div>
-            <div className="mb-5">
-                <button className='see-more mt-4' onClick={handleLoadMoreClick}>
-                    See More
-                </button>
-            </div>
+            {
+                filteredRecipes.length > cardsNo ? (
+                    <div className="mb-5">
+                        <button className='see-more mt-4' onClick={handleLoadMoreClick}>
+                            See More
+                        </button>
+                    </div>
+                ) : (
+                    <div className="mb-5">
+                        <button className='see-more mt-4' onClick={handleLoadLessClick}>
+                            See Less
+                        </button>
+                    </div>
+                )
+            }
             <div className="floating-quiz" onClick={() => {
                 navigate('/quiz')
             }}>

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "number": "10K+",
+        "desc": "Active Members"
+    },
+    {
+        "id": 2,
+        "number": "500+",
+        "desc": "Coffee Recipes"
+    },
+    {
+        "id": 3,
+        "number": "50+",
+        "desc": "Expert Contributors"
+    },
+    {
+        "id": 4,
+        "number": "120+",
+        "desc": "Countries Reached"
+    },
+    {
+        "id": 5,
+        "number": "1M+",
+        "desc": "Monthly Page Views"
+    },
+    {
+        "id": 6,
+        "number": "25K+",
+        "desc": "Social Media Followers"
+    }
+]

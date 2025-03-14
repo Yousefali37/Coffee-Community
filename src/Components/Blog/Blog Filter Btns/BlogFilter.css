@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-bottom: 0.2rem;
+    gap: clamp(0.5rem, 1rem, 1.5rem);
+    margin-bottom: clamp(0.2rem, 0.5vw, 1rem);
     flex-wrap: wrap;
+    padding: 0 1rem;
 }
 
 .blog-filter-btn {
-    font-size: 0.875rem;
+    font-size: clamp(0.75rem, 0.875rem, 1rem);
     color: #374151;
     font-weight: 500;
     line-height: 1.25rem;
@@ -17,21 +18,40 @@
     background-color: #fff;
     border: 1px solid #e5e7eb;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease, transform 0.2s ease-in-out;
 }
 
 .blog-filter-btn:hover {
     background-color: #f3f4f6;
     border-color: #d1d5db;
+    transform: scale(1.05);
+}
+
+.blog-filter-btn:focus {
+    outline: 2px solid #8b4513;
+    outline-offset: 2px;
 }
 
 .active-btn {
     background-color: #8b4513;
     color: #fff;
     border-color: #8b4513;
+    transform: scale(1.1);
 }
 
 .active-btn:hover {
     background-color: #6b2c0f;
     border-color: #6b2c0f;
+    transform: scale(1.1);
+}
+
+.active-btn:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 600px) {
+    .blog-filter {
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
 }

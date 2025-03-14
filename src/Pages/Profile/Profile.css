@@ -1,0 +1,58 @@
+/* General Styles */
+.profile-page {
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.profile-navbar {
+    background: #fff;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.profile-navbar__button {
+    color: #4a4a40;
+    min-width: 200px;
+    min-height: 40px;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.profile-navbar__button .active {
+    background-color: #8b4513;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(139, 69, 19, 0.2);
+}
+
+.profile-navbar__button:hover {
+    background-color: rgba(139, 69, 19, 0.1);
+    color: #8b4513;
+}
+
+.browse-all-recipes {
+    color: #8b4513;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.browse-all-recipes:hover {
+    color: #6b3c50;
+    text-decoration: underline;
+}

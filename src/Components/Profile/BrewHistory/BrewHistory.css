@@ -1,0 +1,95 @@
+.brew-history-container {
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brew-history-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.brew-history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.brew-history-title h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #4a4a40;
+    margin: 0;
+}
+
+.brew-history-title p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0 0;
+}
+
+.log-brew-button {
+    background: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.log-brew-button:hover {
+    background: #6b3c50;
+    transform: translateY(-2px);
+}
+
+.brew-history-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 0.75rem;
+    border: 1px dashed #ddd;
+    transition: background 0.3s ease;
+}
+
+.brew-history-empty-state:hover {
+    background: #f1f1f1;
+}
+
+.brew-icon {
+    font-size: 3rem !important;
+    color: #8b4513;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.brew-icon:hover {
+    transform: scale(1.1);
+}
+
+.brew-history-empty-state p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0 1.5rem;
+}
+
+.browse-recipes-link {
+    color: #8b4513;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.browse-recipes-link:hover {
+    color: #6b3c50;
+    text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+.profile-navbar {
+    color: rgb(744, 74, 64);
+    padding: 0.25rem 0.25rem;
+    background: #fef8ed;
+    border-radius: 0.5rem;
+    min-height: 2.5rem;
+}
+
+.profile-navbar button {
+    color: rgb(74, 74, 64);
+    min-width: 338.656px;
+    min-height: 32px;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1.0rem;
+    line-height: 1.25rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    transition: all 0.5s ease;
+}
+
+.profile-navbar .active {
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.browse-all-recipes {
+    color: rgb(139, 69, 19);
+    font-weight: 500;
+    line-height: 1.25rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.browse-all-recipes:hover {
+    color: rgb(109, 60, 80);
+    text-decoration: underline;
+    transition: all 0.5s ease-in;
+}

@@ -13,7 +13,7 @@ function MightLike({ currentCategory, currentLevel }) {
 
     return (
         <div className='might-like'>
-            <h4>You Might Also Like</h4>
+            <h4 className='px-4'>You Might Also Like</h4>
             <div className='row justify-content-start align-items-center px-5 gap-4'>
                 {filteredRecipes.map((recipe) => (
                     <RecipesCard

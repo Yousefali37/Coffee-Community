@@ -1,13 +1,13 @@
 .footer {
     background-color: #8b4513;
-    padding: 60px 0;
+    padding: 3.75rem 0;
     text-align: center;
     width: 100%;
 }
 
 .footer img {
     width: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .footerTitle h1 {
@@ -15,7 +15,7 @@
     font-weight: 700;
     color: #fff;
     font-family: "Merriweather", serif;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .footerText p {
@@ -23,18 +23,18 @@
     font-weight: 400;
     color: #fff5e1;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .footerInput {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .footerInput input {
-    padding: 10px 16px;
+    padding: 0.625rem 1rem;
     font-size: 1rem;
     font-family: "Inter", sans-serif;
     color: #fff;
@@ -56,7 +56,7 @@
 }
 
 .footerButton button {
-    padding: 10px 18px;
+    padding: 0.625rem 1.125rem;
     font-size: 1rem;
     font-weight: 600;
     background: transparent;
@@ -69,6 +69,40 @@
 
 .footerButton button:hover {
     opacity: 0.8;
-    transition: opacity 0.3s ease;
     text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 2rem 0;
+    }
+
+    .footer img {
+        width: 32px;
+        margin-bottom: 0.75rem;
+    }
+
+    .footerTitle h1 {
+        font-size: 1.5rem;
+    }
+
+    .footerText p {
+        font-size: 0.875rem;
+    }
+
+    .footerInput {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .footerInput input {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .footerButton button {
+        width: 100%;
+        max-width: 280px;
+    }
 }

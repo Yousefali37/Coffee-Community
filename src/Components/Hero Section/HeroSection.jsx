@@ -18,7 +18,7 @@ function HeroSection({ title, text, page, setCategory }) {
             </div>
 
             {page === 'home' ? (
-                <div className='d-flex flex-column align-items-center gap-5'>
+                <div className='d-flex flex-column align-items-center gap-5 cssanimation fadeIn'>
                     <div className={styles['hero-buttons']}>
                         <button className={styles['btn-primary']} onClick={() => {
                             navigate('/our-recipes');
@@ -31,7 +31,7 @@ function HeroSection({ title, text, page, setCategory }) {
                     </div>
 
                     <div className={styles['hero-image']}>
-                        <img src="/logo.png" alt="Coffee Brewing" />
+                        <img src="https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350387/logo_wm9x9r.png" alt="Coffee Brewing" />
                     </div>
                 </div>
             ) : page === "community" ? (

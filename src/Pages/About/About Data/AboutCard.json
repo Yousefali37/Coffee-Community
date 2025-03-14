@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Quality First",
+        "desc": "We believe in exceptional coffee experiences through quality ingredients and methods.",
+        "icon": "faMugHot"
+    },
+    {
+        "id": 2,
+        "title": "Community Driven",
+        "desc": "Our thriving community shares knowledge, experiences, and passion for coffee.",
+        "icon": "faUsers"
+    },
+    {
+        "id": 3,
+        "title": "Expert Guidance",
+        "desc": "Learn from certified baristas and coffee experts from around the world.",
+        "icon": "faAward"
+    },
+    {
+        "id": 4,
+        "title": "Continuous Learning",
+        "desc": "Stay updated with the latest brewing techniques and coffee trends.",
+        "icon": "faGraduationCap"
+    }
+]

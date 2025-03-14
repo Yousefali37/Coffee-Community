@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "title": "Morning Brew Master",
+        "points": 100,
+        "description": "Start your day with a perfect cup of coffee.",
+        "requirements": [
+            "Brew a cup of coffee before 8 AM",
+            "Use freshly ground beans",
+            "Take a photo of your brew"
+        ],
+        "level": "Beginner",
+        "time": "in 24 hours"
+    },
+    {
+        "id": 2,
+        "title": "Latte Art Pro",
+        "points": 200,
+        "description": "Create stunning latte art and impress your friends.",
+        "requirements": [
+            "Pour milk into espresso to create a design",
+            "Submit a photo of your latte art",
+            "Use a minimum of 6 oz of milk"
+        ],
+        "level": "Intermediate",
+        "time": "in 3 days"
+    },
+    {
+        "id": 3,
+        "title": "Coffee Tasting Expert",
+        "points": 150,
+        "description": "Develop your palate by tasting different coffee varieties.",
+        "requirements": [
+            "Taste 3 different coffee beans",
+            "Write a short review for each",
+            "Share your experience on social media"
+        ],
+        "level": "Beginner",
+        "time": "in 2 days"
+    },
+    {
+        "id": 4,
+        "title": "Cold Brew Connoisseur",
+        "points": 250,
+        "description": "Master the art of making cold brew coffee.",
+        "requirements": [
+            "Brew a batch of cold brew",
+            "Let it steep for at least 12 hours",
+            "Serve it over ice"
+        ],
+        "level": "Intermediate",
+        "time": "in 5 days"
+    },
+    {
+        "id": 5,
+        "title": "Espresso Enthusiast",
+        "points": 300,
+        "description": "Pull the perfect shot of espresso.",
+        "requirements": [
+            "Use an espresso machine",
+            "Achieve a 1:2 coffee-to-water ratio",
+            "Submit a video of your process"
+        ],
+        "level": "Advanced",
+        "time": "in 7 days"
+    },
+    {
+        "id": 6,
+        "title": "Coffee Pairing Challenge",
+        "points": 175,
+        "description": "Pair your coffee with the perfect snack.",
+        "requirements": [
+            "Choose a coffee and a snack",
+            "Explain why they pair well together",
+            "Share a photo of your pairing"
+        ],
+        "level": "Beginner",
+        "time": "in 2 days"
+    },
+    {
+        "id": 7,
+        "title": "Sustainable Coffee Lover",
+        "points": 200,
+        "description": "Make your coffee habit more eco-friendly.",
+        "requirements": [
+            "Use a reusable coffee cup",
+            "Compost your coffee grounds",
+            "Share a tip for sustainable coffee brewing"
+        ],
+        "level": "Intermediate",
+        "time": "in 4 days"
+    },
+    {
+        "id": 8,
+        "title": "Coffee Photography Challenge",
+        "points": 150,
+        "description": "Capture the beauty of coffee in a photo.",
+        "requirements": [
+            "Take a high-quality photo of your coffee",
+            "Use natural lighting",
+            "Post it on social media with #CoffeeChallenge"
+        ],
+        "level": "Beginner",
+        "time": "in 3 days"
+    },
+    {
+        "id": 9,
+        "title": "Home Roasting Adventure",
+        "points": 400,
+        "description": "Roast your own coffee beans at home.",
+        "requirements": [
+            "Roast green coffee beans",
+            "Achieve a medium roast level",
+            "Write a review of your roasted beans"
+        ],
+        "level": "Advanced",
+        "time": "in 10 days"
+    },
+    {
+        "id": 10,
+        "title": "Coffee Cocktail Mixologist",
+        "points": 300,
+        "description": "Create a unique coffee-based cocktail.",
+        "requirements": [
+            "Mix coffee with at least one alcoholic ingredient",
+            "Name your cocktail",
+            "Share the recipe and a photo"
+        ],
+        "level": "Intermediate",
+        "time": "in 5 days"
+    }
+]

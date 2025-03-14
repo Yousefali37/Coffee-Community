@@ -2,9 +2,9 @@ import styles from './Footer.module.css';
 
 function Footer() {
     return (
-        <div className={`${styles['footer']}`}>
+        <div className={`${styles['footer']} cssanimation fadeIn`}>
             <div>
-                <img src="/Heart.svg" alt="Heart Icon" />
+                <img src="https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350369/Heart_bmk9xk.svg" alt="Heart Icon" />
             </div>
             <div className={`${styles['footerTitle']}`}>
                 <h1>Join Our Coffee Community</h1>

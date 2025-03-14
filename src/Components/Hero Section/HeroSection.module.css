@@ -2,13 +2,12 @@
 .hero-section {
     position: relative;
     min-height: fit-content;
-    /* background-color: #fff5e1; */
     background-color: #ede3db;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1.0rem;
+    gap: 1rem;
     flex-direction: column;
     padding: 3rem 1rem;
 }
@@ -16,7 +15,7 @@
 /* Text Styles */
 .hero-text h1 {
     color: #8b4513;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
     text-transform: capitalize;
@@ -104,7 +103,6 @@
     opacity: 0;
 }
 
-
 /* Hero Image */
 .hero-image {
     display: flex;
@@ -152,13 +150,12 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-
     .hero-section {
-        padding-top: 2rem;
+        padding: 2rem 1rem;
     }
 
     .hero-text h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .hero-text p {
@@ -177,11 +174,11 @@
 
 @media (max-width: 576px) {
     .hero-text h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .hero-text p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .hero-buttons button {

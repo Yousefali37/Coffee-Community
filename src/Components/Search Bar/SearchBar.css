@@ -16,7 +16,7 @@
     padding: 0.25rem 0.5rem;
     width: 100%;
     min-height: 32px;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #575d66;
     background: transparent;
 }
@@ -45,4 +45,24 @@
     border-radius: 100px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .community-search {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .search-icon, .filter-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .search-icon {
+        margin-right: 6px;
+    }
+
+    .filter-icon {
+        margin-left: 6px;
+    }
 }

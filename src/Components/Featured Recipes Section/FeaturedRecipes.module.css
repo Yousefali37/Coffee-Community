@@ -4,13 +4,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 50px 0px 50px 0px;
+    padding: 3.125rem 0;
     background-color: #fcfaf8;
+    gap: 1.25rem;
 }
 
 .featuredSectionTitle {
     font-size: 2rem;
     font-weight: 700;
     color: #8b4513;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .featuredSection {
+        padding: 2rem 0;
+    }
+
+    .featuredSectionTitle {
+        font-size: 1.5rem;
+    }
 }

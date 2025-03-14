@@ -14,11 +14,11 @@ function BlogDetails() {
         return <div>Blog post not found</div>;
     }
 
-    const { title, author, avatar, date, readTime, content, authorBio, comments } = blogPost;
+    const { title, author, avatar, date, readTime, content, authorBio, comments, image } = blogPost;
 
     return (
         <div className="row gap-5">
-            <BlogHeroSection title={title} />
+            <BlogHeroSection title={title} img={image} />
             <div className="container">
                 <AboutBlog author={author} avatar={avatar} date={date} time={readTime} />
                 <BlogContent

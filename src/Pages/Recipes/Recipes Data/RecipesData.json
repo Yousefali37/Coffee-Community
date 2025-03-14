@@ -7,7 +7,7 @@
         "timeinwords": "short",
         "title": "Classic Pour-Over Coffee",
         "desc": "A clean and crisp cup of coffee using the pour-over method",
-        "img": "/Classic-Pour-Over-Coffee.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741352290/Classic-Pour-Over-Coffee_n39sbb.jpg",
         "featured": false
     },
     {
@@ -18,7 +18,7 @@
         "timeinwords": "medium",
         "title": "Espresso Macchiato",
         "desc": "A rich and bold espresso shot with a dollop of steamed milk",
-        "img": "/espresso.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350362/espresso_r6d1cu.jpg",
         "featured": false
     },
     {
@@ -29,7 +29,7 @@
         "timeinwords": "long",
         "title": "Cold Brew Coffee",
         "desc": "A smooth and refreshing coffee brewed with cold water",
-        "img": "/ice-coffee-2.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350272/Cold_Brew_cuxblp.jpg",
         "featured": false
     },
     {
@@ -40,7 +40,7 @@
         "timeinwords": "short",
         "title": "Aeropress Coffee",
         "desc": "A full-bodied cup of coffee using the Aeropress method",
-        "img": "/aeropress.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350262/aeropress_kiandf.jpg",
         "featured": false
     },
     {
@@ -51,7 +51,7 @@
         "timeinwords": "short",
         "title": "French Press Coffee",
         "desc": "A rich and bold cup of coffee using the French Press method",
-        "img": "/french-press.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350393/french-press_gqmwtq.jpg",
         "featured": false
     },
     {
@@ -62,29 +62,29 @@
         "timeinwords": "medium",
         "title": "Moka Pot Coffee",
         "desc": "A strong and flavorful cup of coffee using the Moka Pot method",
-        "img": "/moka-pot.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350420/moka-pot_qa11g9.jpg",
         "featured": false
     },
     {
         "id": "7",
-        "type": "Turkish Coffee",
+        "type": "Turkish",
         "level": "advanced",
         "time": "15 min",
         "timeinwords": "medium",
         "title": "Traditional Turkish Coffee",
         "desc": "A rich and strong coffee brewed in a cezve with fine grounds",
-        "img": "/turkish-coffee.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350449/turkish-coffee_rt2alt.jpg",
         "featured": true
     },
     {
         "id": "8",
-        "type": "drip coffee",
+        "type": "drip",
         "level": "beginner",
         "time": "8 min",
         "timeinwords": "medium",
         "title": "Classic Drip Coffee",
         "desc": "A smooth and balanced coffee brewed using a drip machine",
-        "img": "/drip-coffee.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350340/drip-coffee_tffayh.jpg",
         "featured": false
     },
     {
@@ -95,7 +95,7 @@
         "timeinwords": "long",
         "title": "Vanilla Cold Brew",
         "desc": "A sweet and creamy cold brew infused with vanilla",
-        "img": "/vanilla-cold-brew.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350440/vanilla-cold-brew_lrl8oh.jpg",
         "featured": true
     },
     {
@@ -106,18 +106,18 @@
         "timeinwords": "short",
         "title": "Flat White",
         "desc": "A creamy and smooth espresso-based drink with steamed milk",
-        "img": "/flat-white.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350567/flat-white_lwhelg.jpg",
         "featured": false
     },
     {
         "id": "11",
-        "type": "Vietnamese Coffee",
+        "type": "Vietnamese",
         "level": "intermediate",
         "time": "10 min",
         "timeinwords": "short",
         "title": "Vietnamese Egg Coffee",
         "desc": "A unique coffee topped with a creamy egg mixture",
-        "img": "/vietnamese-coffee.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350430/vietnamese-coffee_fpkjzm.jpg",
         "featured": false
     },
     {
@@ -128,7 +128,7 @@
         "timeinwords": "medium",
         "title": "Hario V60 Pour-Over",
         "desc": "A bright and aromatic pour-over coffee using the Hario V60",
-        "img": "/hario-v60.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350455/hario-v60_rdwcrp.jpg",
         "featured": false
     },
     {
@@ -139,7 +139,7 @@
         "timeinwords": "short",
         "title": "Cortado",
         "desc": "A balanced espresso drink with equal parts steamed milk",
-        "img": "/cortado.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350322/cortado_jodmek.jpg",
         "featured": false
     },
     {
@@ -150,7 +150,7 @@
         "timeinwords": "medium",
         "title": "Affogato",
         "desc": "A delicious dessert coffee with espresso poured over ice cream",
-        "img": "/affogato.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350131/affogato_h1redr.jpg",
         "featured": false
     },
     {
@@ -161,7 +161,7 @@
         "timeinwords": "short",
         "title": "French Press Dark Roast",
         "desc": "A bold and deep-flavored French Press coffee",
-        "img": "/french-press-dark.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350384/french-press-dark_r8hevr.jpg",
         "featured": false
     },
     {
@@ -172,7 +172,7 @@
         "timeinwords": "medium",
         "title": "Italian Moka Coffee",
         "desc": "A traditional strong coffee made with a stovetop Moka Pot",
-        "img": "/italian-moka.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350510/italian-moka_zlflwf.jpg",
         "featured": false
     },
     {
@@ -183,7 +183,7 @@
         "timeinwords": "long",
         "title": "Chocolate Cold Brew",
         "desc": "A chocolate-infused cold brew coffee for a sweet twist",
-        "img": "/chocolate-cold-brew.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350307/chocolate-cold-brew_s5fxvf.jpg",
         "featured": false
     },
     {
@@ -194,7 +194,7 @@
         "timeinwords": "medium",
         "title": "Café Latte",
         "desc": "A classic latte with steamed milk and espresso",
-        "img": "/cafe-latte.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350337/cafe-latte_q2wvx6.jpg",
         "featured": false
     },
     {
@@ -205,18 +205,18 @@
         "timeinwords": "medium",
         "title": "Aeropress Iced Coffee",
         "desc": "A refreshing iced coffee brewed with the Aeropress",
-        "img": "/Aeropress Iced Coffee.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350327/Aeropress_Iced_Coffee_rrqmxs.jpg",
         "featured": true
     },
     {
         "id": "20",
-        "type": "Turkish Coffee",
+        "type": "Turkish",
         "level": "advanced",
         "time": "12 min",
         "timeinwords": "medium",
         "title": "Spiced Turkish Coffee",
         "desc": "A fragrant Turkish coffee infused with cinnamon and cardamom",
-        "img": "/spiced-turkish-coffee.jpg",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350420/spiced-turkish-coffee_k3bjdd.jpg",
         "featured": false
     }
 ]

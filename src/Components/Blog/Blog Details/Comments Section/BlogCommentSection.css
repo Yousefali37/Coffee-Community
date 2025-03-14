@@ -1,14 +1,16 @@
 .comment-section {
     display: flex;
     flex-direction: column;
-    gap: 1.0rem;
+    gap: 1rem;
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
+    padding: clamp(1rem, 1.5rem, 2rem);
     border-radius: 12px;
     flex-wrap: wrap;
     margin-bottom: 1.5rem;
     transition: all 0.3s ease-in-out;
+    max-width: 800px;
+    width: 100%;
 }
 
 .comment-header {
@@ -16,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .comment-btn {
@@ -33,27 +36,25 @@
     transition: all 0.3s ease;
 }
 
-/* Hover Effect */
 .comment-btn:hover {
     background-color: #8b4513;
     color: white;
-    transform: scale(1.05);
+    transform: translateY(-2px);
 }
 
-/* Active Effect */
 .comment-btn:active {
     transform: scale(0.95);
 }
-
 
 .sign-in-message {
     background-color: #f3f4f6;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: clamp(1.5rem, 2rem, 2.5rem);
     text-align: center;
     border-radius: 0.5rem;
-    color: rgba(107, 114, 128);
+    color: #6b7280;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .sign-in-message .sign-in-btn {
@@ -66,12 +67,25 @@
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-top: 1rem;
 }
 
 .sign-in-message .sign-in-btn:hover {
     transform: scale(1.05);
+    background-color: #6e3610;
 }
 
 .sign-in-message .sign-in-btn:active {
     transform: scale(0.95);
+}
+
+@media (max-width: 600px) {
+    .comment-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sign-in-message {
+        padding: 1.5rem;
+    }
 }

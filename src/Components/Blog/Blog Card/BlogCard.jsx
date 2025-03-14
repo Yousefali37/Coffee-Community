@@ -8,7 +8,7 @@ function BlogCard({ id, img, title, author, avatar, time, comments, }) {
     const navigate = useNavigate();
     
     return (
-        <div className="blog-card">
+        <div className="blog-card cssanimation fadeIn">
             {/* Blog Image */}
             <div className="blog-img">
                 <img src={img} alt="Blog Post" />

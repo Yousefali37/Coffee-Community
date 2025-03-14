@@ -1,14 +1,14 @@
 .about-blog {
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
+    padding: clamp(1rem, 3vw, 1.5rem);
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: clamp(0.5rem, 2vw, 1rem);
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: clamp(1.5rem, 4vw, 2rem);
     transition: all 0.3s ease-in-out;
 }
 
@@ -16,36 +16,42 @@
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Author Info */
+@media (max-width: 600px) {
+    .about-blog {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .author-info {
     display: flex;
     align-items: center;
     text-align: left;
+    gap: clamp(0.5rem, 2vw, 1rem);
 }
 
 .author-info img {
-    width: 50px;
-    height: 50px;
+    width: clamp(40px, 8vw, 50px);
+    height: clamp(40px, 8vw, 50px);
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ddd;
 }
 
 .author-name {
-    font-size: 1rem;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
     font-weight: bold;
     color: #333;
 }
 
 .meta-info p {
-    font-size: 0.875rem;
+    font-size: clamp(0.8rem, 1.3vw, 0.875rem);
     color: #6c757d;
 }
 
-/* Buttons */
 .about-btns {
     display: flex;
-    gap: 0.5rem;
+    gap: clamp(0.3rem, 1vw, 0.5rem);
 }
 
 .about-btns button {
@@ -53,17 +59,17 @@
     align-items: center;
     gap: 0.5rem;
     font-weight: 500;
-    font-size: 0.875rem;
-    padding: 0.75rem 1rem;
+    font-size: clamp(0.75rem, 1.2vw, 0.875rem);
+    padding: clamp(0.5rem, 1.5vw, 0.75rem) clamp(0.75rem, 2vw, 1rem);
     background-color: #8b4513;
     color: #fff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.about-btns .share-blog:active , .about-btns .save-blog:active {
+.about-btns .share-blog:active, .about-btns .save-blog:active {
     transform: scale(0.95);
 }
 
@@ -80,4 +86,16 @@
 .share-blog:hover {
     background-color: #8b4513;
     color: white;
+}
+
+@media (max-width: 480px) {
+    .about-btns {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .about-btns button {
+        width: 100%;
+        justify-content: center;
+    }
 }

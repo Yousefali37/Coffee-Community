@@ -17,8 +17,12 @@ function Blog() {
         setVisibleCardsCount(prevCount => prevCount + 3);
     };
 
+    const handleLoadLess = () => {
+        setVisibleCardsCount(3);
+    };
+
     return (
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column cssanimation fadeIn">
             {/* Hero Section */}
             <HeroSection
                 page={"blog"}
@@ -31,7 +35,7 @@ function Blog() {
             <div className="container mt-5">
                 <div className="row justify-content-center g-4">
                     {filteredBlogs.slice(0, visibleCardsCount).map((blog) => (
-                        <div key={blog.id} className="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                        <div key={blog.id} className="col-12 col-md-6 col-lg-4 d-flex justify-content-center cssanimation fadeIn">
                             <BlogCard
                                 id={blog.id}
                                 author={blog.author}
@@ -48,7 +52,7 @@ function Blog() {
                     {!isMaxCardsVisible ? (
                         <button onClick={handleLoadMore} className="see-more">See More</button>
                     ) : (
-                        <p className="text-center">No more articles to display. 😔</p>
+                        <button onClick={handleLoadLess} className="see-more">See Less</button>
                     )}
                 </div>
             </div>

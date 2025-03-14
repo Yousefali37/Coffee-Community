@@ -15,7 +15,7 @@ function RecipesCard({ id, type, time, img, title, desc, page }) {
     };
 
     return (
-        <div className={`recipe-card ${quiz ? 'col-12' : 'col-lg-3 col-md-5 col-sm-7 col-10'} fade-in`}>
+        <div className={`recipe-card ${quiz ? 'col-12' : 'col-lg-3 col-md-5 col-sm-7 col-10'} cssanimation fadeIn`}>
             <div className="recipe-meta">
                 <p className="recipe-type">{type}</p>
                 <div className="recipe-time">
@@ -57,7 +57,7 @@ RecipesCard.propTypes = {
     img: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
-    page: PropTypes.string.isRequired,
+    page: PropTypes.string,
 };
 
 // Define default props

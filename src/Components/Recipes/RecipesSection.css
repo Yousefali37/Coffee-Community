@@ -10,6 +10,7 @@
 
 .recipes-section h1 {
     color: #8b4513;
+    font-size: 2rem;
 }
 
 .see-more {
@@ -35,4 +36,16 @@
 .see-more:active {
     transform: translateY(-1px);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recipes-section {
+        padding: 2rem 0rem;
+        gap: 1rem;
+    }
+
+    .see-more {
+        padding: 0.6rem 1.5rem;
+    }
 }

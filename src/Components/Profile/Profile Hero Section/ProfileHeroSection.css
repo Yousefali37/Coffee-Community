@@ -1,0 +1,135 @@
+.profile-page__profile {
+    position: relative;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+    border-radius: 1rem;
+}
+
+.profile-page__header {
+    height: 10rem;
+    background: linear-gradient(to right, rgba(139, 69, 19, 0.8), rgba(124, 144, 130, 0.8));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-page__avatar {
+    position: absolute;
+    top: 7rem;
+    left: 20px;
+}
+
+.profile-page__avatar img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.profile-page__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3rem 0.5rem 1rem;
+}
+
+.profile-page__actions {
+    text-align: start;
+}
+
+.profile-page__edit-profile {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: rgb(139, 69, 19);
+    border: 1px solid rgb(139, 69, 19);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+.profile-page__edit-profile:hover {
+    background-color: rgb(139, 69, 19, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.profile-page__edit-profile:active {
+    transform: scale(0.95);
+}
+
+.profile-page__user-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.profile-page__name {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+}
+
+.profile-page__username {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(74, 74, 64);
+    margin: 0;
+}
+
+.profile-page__actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.profile-page__metadata {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 0.75rem;
+    flex-wrap: wrap;
+    color: rgb(74, 74, 64);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.profile-page__metadata p {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.profile-page__social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-page__social-links .profile-page__social-link,
+.profile-page__social-links .profile-page__social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    text-align: start;
+    color: rgb(139, 69, 19);
+    text-decoration: none;
+}
+
+.profile-page__social-link .profile-page__social-icon {
+    font-size: 0.25rem;
+    color: rgb(74, 74, 64);
+}

@@ -16,7 +16,16 @@
 
 /* Responsive Tweaks */
 @media (max-width: 768px) {
+    .community-wrapper {
+        padding: 1rem;
+    }
+
     .community-sidebar {
         position: static;
+        max-width: 100%;
+    }
+
+    .community-content {
+        padding: 1.5rem 1rem;
     }
 }

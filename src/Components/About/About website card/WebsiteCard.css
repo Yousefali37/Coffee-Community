@@ -4,10 +4,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 424px;
     background-color: #fff;
     border-radius: 10px;
-    padding: 1.5rem;
+    padding: clamp(1rem, 2vw, 1.5rem);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
 }
@@ -20,13 +19,20 @@
 .website-card h1 {
     font-family: "Playfair Display", serif;
     color: #8b4513;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    line-height: clamp(2rem, 4.5vw, 2.5rem);
     font-weight: 700;
 }
 
 .website-card p {
     font-family: "Poppins", sans-serif;
-    color: rgba(74,74,64, 0.8);
+    color: rgba(74, 74, 64, 0.8);
     font-weight: 700;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+@media (max-width: 480px) {
+    .website-card {
+        max-width: 95%;
+    }
 }

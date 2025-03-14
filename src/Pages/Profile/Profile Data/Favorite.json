@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "type": "pour over",
+        "level": "beginner",
+        "time": "5 min",
+        "timeinwords": "short",
+        "title": "Classic Pour-Over Coffee",
+        "desc": "A clean and crisp cup of coffee using the pour-over method",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741352290/Classic-Pour-Over-Coffee_n39sbb.jpg",
+        "featured": false
+    },
+    {
+        "id": "5",
+        "type": "French Press",
+        "level": "beginner",
+        "time": "5 min",
+        "timeinwords": "short",
+        "title": "French Press Coffee",
+        "desc": "A rich and bold cup of coffee using the French Press method",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350393/french-press_gqmwtq.jpg",
+        "featured": false
+    },
+    {
+        "id": "9",
+        "type": "cold brew",
+        "level": "intermediate",
+        "time": "16 hr",
+        "timeinwords": "long",
+        "title": "Vanilla Cold Brew",
+        "desc": "A sweet and creamy cold brew infused with vanilla",
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350440/vanilla-cold-brew_lrl8oh.jpg",
+        "featured": true
+    }
+]

@@ -9,8 +9,8 @@
         "authorBio": "Sustainability advocate and coffee industry consultant with a focus on eco-friendly practices.",
         "readTime": "10 min",
         "comments": 19,
-        "image": "/The Future of Coffee.jpg",
-        "avatar": "/Emma Harris.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350422/The_Future_of_Coffee_p31yh9.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350356/Emma_Harris_a4zwco.jpg",
         "content": "Sustainability is becoming increasingly important in the coffee industry.\n\nFrom eco-friendly farming practices to reducing waste in coffee shops, there are many ways the industry is working toward a more sustainable future. Shade-grown coffee, for example, helps preserve biodiversity, while composting coffee grounds can reduce waste.\n\nConsumers can also play a role by choosing ethically sourced coffee and supporting brands that prioritize sustainability. By making conscious choices, we can ensure that coffee remains a beloved beverage for generations to come."
     },
     {
@@ -23,8 +23,8 @@
         "authorBio": "Coffee scientist and Q-grader with 10 years of experience in specialty coffee research.",
         "readTime": "9 min",
         "comments": 14,
-        "image": "/Coffee Beans.jpg",
-        "avatar": "/Emily Smith.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350269/Coffee_Beans_rsb6pk.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350339/Emily_Smith_lnf4y7.jpg",
         "content": "Selecting the right coffee beans is crucial for a great cup of coffee. Consider factors like origin, roast level, and freshness.\n\nCoffee beans from different regions, such as Ethiopia, Colombia, or Brazil, have unique flavor profiles. Light roasts tend to be more acidic and fruity, while dark roasts are richer and more bitter.\n\nAlways look for freshly roasted beans, as they retain more of their natural flavors and aromas. Storing your beans in an airtight container away from light and heat will also help preserve their quality."
     },
     {
@@ -37,8 +37,8 @@
         "authorBio": "Historian and author specializing in the cultural impact of coffee throughout history.",
         "readTime": "11 min",
         "comments": 7,
-        "image": "/Coffee History.jpg",
-        "avatar": "/Michael Brown.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350288/Coffee_History_fjjydw.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350404/Michael_Brown_d0g4vi.jpg",
         "content": "Coffee has a rich history that began in Ethiopia, where legend says a goat herder named Kaldi discovered the energizing effects of coffee beans.\n\nFrom there, coffee spread to the Arabian Peninsula, where it became a popular drink in Yemen. By the 17th century, coffee had reached Europe and the Americas, becoming a global phenomenon.\n\nToday, coffee is one of the most widely consumed beverages in the world, with a culture that spans from traditional Turkish coffee to modern specialty coffee shops."
     },
     {
@@ -51,8 +51,8 @@
         "authorBio": "Professional barista and brewing methods expert with a passion for perfecting coffee extraction.",
         "readTime": "8 min",
         "comments": 18,
-        "image": "/Brewing Method.jpg",
-        "avatar": "/Laura Wilson.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350290/Brewing_Method_th2k61.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350417/Laura_Wilson_rajswe.jpg",
         "content": "French Press and Pour Over are two popular brewing methods, each with its unique characteristics.\n\nThe French Press uses a metal mesh filter, which allows more oils and fine particles to pass through, resulting in a fuller-bodied coffee. On the other hand, Pour Over methods, like the V60 or Chemex, use paper filters that produce a cleaner and brighter cup.\n\nBoth methods require precise control over water temperature and brewing time to achieve the best results. Experimenting with these methods can help you discover your preferred brewing style."
     },
     {
@@ -65,8 +65,8 @@
         "authorBio": "Water quality specialist and coffee enthusiast with a focus on the chemistry of brewing.",
         "readTime": "7 min",
         "comments": 12,
-        "image": "/Water Coffee.jpg",
-        "avatar": "/David Johnson.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350341/Water_Coffee_zytkux.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350332/David_Johnson_vzsl28.jpg",
         "content": "Water quality and temperature play a significant role in coffee extraction.\n\nIdeally, water should be between 195°F and 205°F (90°C to 96°C) for optimal extraction. Using filtered water can also improve the taste of your coffee by removing impurities that might affect the flavor.\n\nThe mineral content in water, such as calcium and magnesium, can enhance extraction, but too much can lead to over-extraction and bitterness. Paying attention to your water can make a noticeable difference in the quality of your brew."
     },
     {
@@ -79,8 +79,8 @@
         "authorBio": "Coffee roaster and flavor profile expert with over 15 years of experience in the industry.",
         "readTime": "10 min",
         "comments": 20,
-        "image": "/Roasting Coffee.jpg",
-        "avatar": "/Sophia Martinez.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350472/Roasting_Coffee_axvxvt.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350408/Sophia_Martinez_pj5ir1.jpg",
         "content": "Coffee roasts range from light to dark, each offering distinct flavors.\n\nLight roasts are roasted for a shorter time, preserving the bean's natural acidity and fruity notes. Medium roasts have a balanced flavor, with a mix of acidity and body. Dark roasts are roasted longer, resulting in a richer, more bitter taste with notes of chocolate or caramel.\n\nThe roast level you choose depends on your personal preference and the brewing method you use. Experimenting with different roasts can help you find your perfect cup."
     },
     {
@@ -93,8 +93,8 @@
         "authorBio": "Award-winning barista and latte art instructor with a passion for teaching coffee artistry.",
         "readTime": "6 min",
         "comments": 25,
-        "image": "/Barista Skills.jpg",
-        "avatar": "/Daniel Garcia.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350267/Barista_Skills_zzt4ar.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350522/Daniel_Garcia_gxnxap.jpg",
         "content": "Latte art is a skill that combines technique and creativity.\n\nIt involves pouring steamed milk into a shot of espresso in a way that creates patterns on the surface, such as hearts, rosettas, or tulips. To create latte art, you need well-frothed milk with a smooth, velvety texture and a steady hand.\n\nPracticing the pour and understanding the flow of milk are key to mastering this art. Latte art not only makes your coffee visually appealing but also enhances the overall drinking experience."
     },
     {
@@ -107,8 +107,8 @@
         "authorBio": "Nutritionist and coffee health researcher with a focus on the benefits of moderate coffee consumption.",
         "readTime": "9 min",
         "comments": 16,
-        "image": "/Coffee and Health.jpg",
-        "avatar": "/Olivia Taylor.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350315/Coffee_and_Health_vbuoxg.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350473/Olivia_Taylor_ddfrth.jpg",
         "content": "Coffee has been linked to various health benefits, including improved cognitive function, increased metabolism, and a reduced risk of certain diseases like Parkinson's and Alzheimer's.\n\nHowever, there are also myths surrounding coffee, such as the idea that it dehydrates you or stunts your growth. In moderation, coffee can be part of a healthy lifestyle.\n\nIt's important to be mindful of your caffeine intake and avoid excessive sugar or cream, which can negate some of coffee's health benefits."
     },
     {
@@ -121,8 +121,8 @@
         "authorBio": "Cold brew specialist and coffee innovator with a passion for experimenting with new brewing techniques.",
         "readTime": "7 min",
         "comments": 13,
-        "image": "/Cold Brew.jpg",
-        "avatar": "/James Anderson.jpg",
+        "image": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350272/Cold_Brew_cuxblp.jpg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350393/James_Anderson_i8obd1.jpg",
         "content": "Cold brew and iced coffee are both refreshing, but they differ in preparation and flavor.\n\nCold brew is made by steeping coffee grounds in cold water for 12 to 24 hours, resulting in a smooth, low-acidity drink. Iced coffee, on the other hand, is brewed hot and then cooled down, often by pouring it over ice.\n\nThis method retains more of the coffee's acidity and brightness. Both options are perfect for hot summer days, but the choice depends on your preference for flavor and texture."
     }
 ]

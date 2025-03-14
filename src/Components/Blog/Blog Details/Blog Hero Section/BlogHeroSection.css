@@ -1,26 +1,26 @@
 .blog-hero-section {
-    min-height: 40vh;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
-                url("/blog-hero-placeholder.jpeg");
-    background-position: center;
+    min-height: clamp(35vh, 40vh, 50vh);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     text-align: start;
     color: #fff;
+    padding: 2rem 2rem 0rem;
 }
 
 .blog-action {
     max-width: 100%;
-    padding: 0rem 12rem;
+    padding: 0rem clamp(2rem, 10vw, 10rem);
 }
 
 .blog-action h1 {
     font-size: clamp(1.5rem, 5vw, 2.5rem);
     font-weight: 700;
     margin-top: 0.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .blog-action .back-button {
@@ -30,9 +30,23 @@
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .back-button:hover {
-    color: #7a3d14;
+    color: #e0b08b;
+    transform: translateX(-3px);
+}
+
+@media (max-width: 768px) {
+    .blog-action {
+        padding: 0rem 2rem;
+    }
+
+    .blog-action h1 {
+        font-size: clamp(1.3rem, 4vw, 2rem);
+    }
 }

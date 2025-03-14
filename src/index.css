@@ -27,6 +27,7 @@ h1, h2, h3, h4 {
     font-family: var(--heading-font);
 }
 
-/* @media screen and (max-width: 768px) {
-    
-} */
+@keyframes leFadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}

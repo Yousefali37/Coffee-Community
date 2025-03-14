@@ -27,8 +27,6 @@
 /* Quiz Container */
 .quiz-container {
     border-radius: 0.5rem;
-    /* max-width: 48rem; */
-    /* margin: auto; */
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     background-color: #fff;
     padding: 1.5rem;
@@ -147,4 +145,28 @@
 /* Quiz Results */
 .quiz-results {
     gap: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quiz-page {
+        padding: 2rem 1rem;
+    }
+
+    .quiz-container {
+        padding: 1rem;
+    }
+
+    .quiz-ans {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 0.5rem;
+    }
+
+    .prev-btn, .next-btn {
+        padding: 0.6rem 1rem;
+    }
+
+    .quiz-ques .progress-bar {
+        height: 0.375rem;
+    }
 }

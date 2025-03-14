@@ -2,7 +2,7 @@
     {
         "id": 1,
         "username": "Coffee Explorer",
-        "avatar": "/pixelcut-export.jpeg",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350407/pixelcut-export_hvmhcx.jpg",
         "category": "Brewing",
         "title": "My French Press Method",
         "desc": "After years of experimentation, I've perfected my French press technique. It all starts with the right grind size - coarse, like sea salt. I use a 1:15 coffee-to-water ratio and steep for exactly 4 minutes. What's your preferred method?",
@@ -15,7 +15,7 @@
     {
         "id": 2,
         "username": "LatteLover",
-        "avatar": "/fleee.png",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350363/fleee_ckgyhb.png",
         "category": "Recipes",
         "title": "Homemade Vanilla Latte",
         "desc": "I just tried making my own vanilla latte at home, and it turned out amazing! I used vanilla syrup, steamed milk, and a shot of espresso. Does anyone have recommendations for the best vanilla syrup brands?",
@@ -28,7 +28,7 @@
     {
         "id": 3,
         "username": "EspressoKing",
-        "avatar": "/frank.png",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350383/frank_pdoovh.png",
         "category": "Equipment",
         "title": "Best Espresso Machine Under $500?",
         "desc": "I'm looking for an espresso machine that delivers great shots but is budget-friendly. Any recommendations? Preferably something easy to maintain.",
@@ -41,7 +41,7 @@
     {
         "id": 4,
         "username": "DarkRoastFan",
-        "avatar": "/doug.webp",
+        "avatar": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350253/doug_hsw1kf.webp",
         "category": "Coffee Beans",
         "title": "Best Dark Roast Beans?",
         "desc": "I'm on the hunt for the perfect dark roast beans. I love a bold, chocolatey flavor with a hint of caramel. Any suggestions?",

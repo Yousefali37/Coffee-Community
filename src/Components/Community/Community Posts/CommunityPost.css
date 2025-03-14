@@ -176,15 +176,20 @@
     font-size: 1.4rem;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     .community-post-container {
-        padding: 2rem;
+        padding: 1.5rem;
+        margin: 1rem 0;
     }
 
     .post-header {
         flex-direction: column;
-        gap: 1.2rem;
+        gap: 1rem;
+    }
+
+    .user-avatar {
+        width: 48px;
+        height: 48px;
     }
 
     .post-category .recipe-type {
@@ -200,10 +205,22 @@
     }
 
     .action-buttons {
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .additional-actions {
-        gap: 1.5rem;
+        gap: 1rem;
+    }
+
+    .like-action,
+    .comment-action,
+    .favorite-action,
+    .share-action {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .post-divider {
+        height: 1px;
     }
 }

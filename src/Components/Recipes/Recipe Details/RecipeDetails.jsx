@@ -1,19 +1,25 @@
-import { faChevronLeft, faClock, faGraduationCap, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faClock, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+// import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import './RecipeDetails.css';
 import MightLike from "../MightLike/MightLike";
 import recipesData from './RecipesDetails.json';
+import BlogHeroSection from './../../Blog/Blog Details/Blog Hero Section/BlogHeroSection';
+import RecipeImg from '../../../Pages/Recipes/Recipes Data/RecipesData.json';
 
 function RecipeDetails() {
     const navigate = useNavigate();
     const { id } = useParams();
-    const [fav, setFav] = useState(false);
+    // const [fav, setFav] = useState(false);
 
-    const handleFavClick = () => {
-        setFav(!fav);
-    };
+    const getImage = RecipeImg.filter((item) => {
+        return item.id === id;
+    })
+
+    // const handleFavClick = () => {
+    //     setFav(!fav);
+    // };
 
     const handleClick = () => {
         navigate(-1);
@@ -32,24 +38,22 @@ function RecipeDetails() {
 
     return (
         <div className="recipes-page min-vh-100 d-flex flex-column justify-content-start align-items-start">
-            {/* Back Button */}
-            <div className="recipe-action mb-4">
-                <button className="back-button" onClick={handleClick}>
-                    <FontAwesomeIcon icon={faChevronLeft} size="xs" /> Back to Recipes
-                </button>
+            <div className="w-100">
+                <BlogHeroSection title={recipe.title} img={getImage.map((img) => {
+                    return img.img;
+                })} />
             </div>
 
             {/* Recipe Content */}
             <div className="recipes-container w-100 p-4 p-md-5 d-flex flex-column justify-content-start align-items-start text-start">
                 {/* Recipe Title and Favorite Icon */}
-                <div className="w-100 d-flex justify-content-between align-items-center mb-4">
-                    <h1 className="recipe-title">{recipe.title}</h1>
+                {/* <div className="w-100 d-flex justify-content-between align-items-center mb-4">
                     <FontAwesomeIcon
                         icon={faHeart}
                         className={`heart-icon ${fav ? "fav-icon-active" : ""}`}
                         onClick={handleFavClick}
                     />
-                </div>
+                </div> */}
 
                 {/* Recipe Meta (Type, Time, Difficulty) */}
                 <div className="recipe-meta w-100 d-flex justify-content-start align-items-center gap-3 gap-md-5 flex-wrap mb-4">
