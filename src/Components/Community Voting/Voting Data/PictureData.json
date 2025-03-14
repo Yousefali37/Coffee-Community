@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741965756/pic4_xpqk7u.jpg",
+        "title": "",
+        "desc": "",
+        "votingNo": 15
+    },
+    {
+        "id": 2,
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741965748/pic1_tivy9h.jpg",
+        "title": "",
+        "desc": "",
+        "votingNo": 10
+    },
+    {
+        "id": 3,
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741965721/pic3_tncdj4.jpg",
+        "title": "",
+        "desc": "",
+        "votingNo": 30
+    }
+]

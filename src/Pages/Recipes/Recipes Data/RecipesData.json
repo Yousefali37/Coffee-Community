@@ -8,7 +8,8 @@
         "title": "Classic Pour-Over Coffee",
         "desc": "A clean and crisp cup of coffee using the pour-over method",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741352290/Classic-Pour-Over-Coffee_n39sbb.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": true
     },
     {
         "id": "2",
@@ -19,7 +20,8 @@
         "title": "Espresso Macchiato",
         "desc": "A rich and bold espresso shot with a dollop of steamed milk",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350362/espresso_r6d1cu.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": true
     },
     {
         "id": "3",
@@ -30,7 +32,8 @@
         "title": "Cold Brew Coffee",
         "desc": "A smooth and refreshing coffee brewed with cold water",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350272/Cold_Brew_cuxblp.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "4",
@@ -41,7 +44,8 @@
         "title": "Aeropress Coffee",
         "desc": "A full-bodied cup of coffee using the Aeropress method",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350262/aeropress_kiandf.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "5",
@@ -52,7 +56,8 @@
         "title": "French Press Coffee",
         "desc": "A rich and bold cup of coffee using the French Press method",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350393/french-press_gqmwtq.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "6",
@@ -63,7 +68,8 @@
         "title": "Moka Pot Coffee",
         "desc": "A strong and flavorful cup of coffee using the Moka Pot method",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350420/moka-pot_qa11g9.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "7",
@@ -74,7 +80,8 @@
         "title": "Traditional Turkish Coffee",
         "desc": "A rich and strong coffee brewed in a cezve with fine grounds",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350449/turkish-coffee_rt2alt.jpg",
-        "featured": true
+        "featured": true,
+        "recipeofmonth": false
     },
     {
         "id": "8",
@@ -85,7 +92,8 @@
         "title": "Classic Drip Coffee",
         "desc": "A smooth and balanced coffee brewed using a drip machine",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350340/drip-coffee_tffayh.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "9",
@@ -96,7 +104,8 @@
         "title": "Vanilla Cold Brew",
         "desc": "A sweet and creamy cold brew infused with vanilla",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350440/vanilla-cold-brew_lrl8oh.jpg",
-        "featured": true
+        "featured": true,
+        "recipeofmonth": false
     },
     {
         "id": "10",
@@ -107,7 +116,8 @@
         "title": "Flat White",
         "desc": "A creamy and smooth espresso-based drink with steamed milk",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350567/flat-white_lwhelg.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "11",
@@ -118,7 +128,8 @@
         "title": "Vietnamese Egg Coffee",
         "desc": "A unique coffee topped with a creamy egg mixture",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350430/vietnamese-coffee_fpkjzm.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "12",
@@ -129,7 +140,8 @@
         "title": "Hario V60 Pour-Over",
         "desc": "A bright and aromatic pour-over coffee using the Hario V60",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350455/hario-v60_rdwcrp.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "13",
@@ -140,7 +152,8 @@
         "title": "Cortado",
         "desc": "A balanced espresso drink with equal parts steamed milk",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350322/cortado_jodmek.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "14",
@@ -151,7 +164,8 @@
         "title": "Affogato",
         "desc": "A delicious dessert coffee with espresso poured over ice cream",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350131/affogato_h1redr.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "15",
@@ -162,7 +176,8 @@
         "title": "French Press Dark Roast",
         "desc": "A bold and deep-flavored French Press coffee",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350384/french-press-dark_r8hevr.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "16",
@@ -173,7 +188,8 @@
         "title": "Italian Moka Coffee",
         "desc": "A traditional strong coffee made with a stovetop Moka Pot",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350510/italian-moka_zlflwf.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "17",
@@ -184,7 +200,8 @@
         "title": "Chocolate Cold Brew",
         "desc": "A chocolate-infused cold brew coffee for a sweet twist",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350307/chocolate-cold-brew_s5fxvf.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": true
     },
     {
         "id": "18",
@@ -195,7 +212,8 @@
         "title": "Café Latte",
         "desc": "A classic latte with steamed milk and espresso",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350337/cafe-latte_q2wvx6.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     },
     {
         "id": "19",
@@ -206,7 +224,8 @@
         "title": "Aeropress Iced Coffee",
         "desc": "A refreshing iced coffee brewed with the Aeropress",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350327/Aeropress_Iced_Coffee_rrqmxs.jpg",
-        "featured": true
+        "featured": true,
+        "recipeofmonth": false
     },
     {
         "id": "20",
@@ -217,6 +236,7 @@
         "title": "Spiced Turkish Coffee",
         "desc": "A fragrant Turkish coffee infused with cinnamon and cardamom",
         "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741350420/spiced-turkish-coffee_k3bjdd.jpg",
-        "featured": false
+        "featured": false,
+        "recipeofmonth": false
     }
 ]

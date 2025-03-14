@@ -1,0 +1,50 @@
+.voting-hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    border: 1px solid rgb(233, 230, 226);
+    color: rgb(41, 38, 35);
+    text-align: start;
+}
+
+.voting-hero__header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.voting-hero__header .voting-hero__title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.voting-hero__header .voting-hero__description {
+    color: rgb(74, 74, 64);
+    margin: 0;
+}
+
+.voting-hero__timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}
+
+.voting-hero__timer .voting-hero__timer-icon {
+    color: rgb(139, 69, 19);
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.voting-hero__timer .voting-hero__timer-text {
+    margin: 0;
+}

@@ -20,7 +20,7 @@ function BlogHeroSection({ title, img }) {
         >
             <div className="blog-action mb-4">
                 <button className="back-button" onClick={handleClick}>
-                    <FontAwesomeIcon icon={faChevronLeft} size="xs" /> Back to Blogs
+                    <FontAwesomeIcon icon={faChevronLeft} size="xs" /> Go Back
                 </button>
                 <h1>
                     {title ? title : "No title"}

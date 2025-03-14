@@ -16,6 +16,7 @@ import Header from './Header/Header';
 import NotFound from './Pages/Not Found/NotFound';
 import Profile from './Pages/Profile/Profile';
 import CoffeeChallenges from './Pages/Coffee Challenges/CoffeeChallenges';
+import Voting from './Pages/Community Voting/Voting';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path='/profile' element={<Profile />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path='/challenges' element={<CoffeeChallenges />} />
+        <Route path='/voting' element={<Voting />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

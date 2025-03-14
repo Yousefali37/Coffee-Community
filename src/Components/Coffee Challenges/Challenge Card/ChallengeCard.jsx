@@ -22,7 +22,7 @@ function ChallengeCard({ title, points, description, requirements, level, time }
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // Prevent default form submission
+        e.preventDefault();
         setPopup(false);
         setProgress("Completed");
     };

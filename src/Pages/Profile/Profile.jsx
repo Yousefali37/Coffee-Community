@@ -9,6 +9,7 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import { useState } from 'react';
 import FavoriteSection from '../../Components/Profile/Favorite Section/FavoriteSection';
 import BrewHistory from '../../Components/Profile/BrewHistory/BrewHistory';
+import Achievements from '../../Components/Profile/Achievements/Achievements';
 
 
 function Profile() {
@@ -18,7 +19,7 @@ function Profile() {
     return (
         <div className='profile-page container d-flex flex-column justify-content-center align-items-center gap-5 cssanimation fadeIn'>
             <ProfileHeroSection />
-            <div className='profile-navbar w-100 d-flex justify-content-between align-items-center flex-wrap'>
+            <div className='profile-navbar w-100 d-flex justify-content-between justify-content-sm-center align-items-center flex-wrap'>
                 <button className={`${active === "favorites" && "active"}`} onClick={() => {
                     setActive("favorites");
                 }}>
@@ -46,7 +47,7 @@ function Profile() {
                 }
                 {active === "achievements" &&
                     <div className='cssanimation fadeIn'>
-                        Achievements
+                        <Achievements />
                     </div>
                 }
             </div>
