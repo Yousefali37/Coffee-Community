@@ -1,0 +1,23 @@
+[ 
+    {
+        "id": 1,
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741967026/shop2_g2w1jg.jpg",
+        "title": "",
+        "desc": "",
+        "votes": "24"
+    },
+    {
+        "id": 2,
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741967029/shop1_kx9y9y.jpg",
+        "title": "",
+        "desc": "",
+        "votes": "30"
+    },
+    {
+        "id": 3,
+        "img": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741967031/shop3_rf6fej.jpg",
+        "title": "",
+        "desc": "",
+        "votes": "10"
+    }
+]

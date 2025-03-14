@@ -12,11 +12,8 @@ function Recipes() {
 
     const navigate = useNavigate();
 
-    const [cardsNo, setCardsNo] = useState(3);
-
-    const handleLoadMoreClick = () => {
-        setCardsNo((prevCardsNo) => prevCardsNo + 3);
-    };
+    const [currentPage, setCurrentPage] = useState(1);
+    const [recipesPerPage] = useState(3);
 
     const [filters, setFilters] = useState({
         method: "",
@@ -31,19 +28,33 @@ function Recipes() {
         return matchesMethod && matchesLevel && matchesSearch;
     });
 
+    const indexOfLastRecipe = currentPage * recipesPerPage;
+    const indexOfFirstRecipe = indexOfLastRecipe - recipesPerPage;
+    const currentRecipes = filteredRecipes.slice(indexOfFirstRecipe, indexOfLastRecipe);
+
     const handleFilterChange = (filterType, value) => {
         setFilters((prevFilters) => ({
             ...prevFilters,
             [filterType]: value,
         }));
+        setCurrentPage(1);
     };
 
     const handleSearchChange = (query) => {
         setSearchQuery(query);
+        setCurrentPage(1);
     };
 
-    const handleLoadLessClick = () => {
-        setCardsNo(3);
+    const handleNextPage = () => {
+        if (currentPage < Math.ceil(filteredRecipes.length / recipesPerPage)) {
+            setCurrentPage(currentPage + 1);
+        }
+    };
+
+    const handlePreviousPage = () => {
+        if (currentPage > 1) {
+            setCurrentPage(currentPage - 1);
+        }
     };
 
     return (
@@ -59,7 +70,7 @@ function Recipes() {
             />
             <hr />
             <div className="row justify-content-center align-items-center gap-4 cssanimation fadeIn">
-                {filteredRecipes.slice(0, cardsNo).map((recipe) => (
+                {currentRecipes.map((recipe) => (
                     <RecipesCard
                         key={recipe.id}
                         id={recipe.id}
@@ -71,28 +82,30 @@ function Recipes() {
                     />
                 ))}
             </div>
-            {
-                filteredRecipes.length > cardsNo ? (
-                    <div className="mb-5">
-                        <button className='see-more mt-4' onClick={handleLoadMoreClick}>
-                            See More
-                        </button>
-                    </div>
-                ) : (
-                    <div className="mb-5">
-                        <button className='see-more mt-4' onClick={handleLoadLessClick}>
-                            See Less
-                        </button>
-                    </div>
-                )
-            }
+            <div className="pagination-controls mb-5">
+                <button 
+                    className='pagination-button' 
+                    onClick={handlePreviousPage} 
+                    disabled={currentPage === 1}
+                >
+                    Previous
+                </button>
+                <span className="pagination-page">Page {currentPage}</span>
+                <button 
+                    className='pagination-button' 
+                    onClick={handleNextPage} 
+                    disabled={currentPage === Math.ceil(filteredRecipes.length / recipesPerPage)}
+                >
+                    Next
+                </button>
+            </div>
             <div className="floating-quiz" onClick={() => {
                 navigate('/quiz')
             }}>
                 <div className="quiz-icon"><FontAwesomeIcon icon={faQuestion} className="ques-icon" /></div>
                 <div className="quiz-tooltip">
                     Not sure which coffee suits you best? <br />
-                    <span>Take our quiz to help you decied</span>
+                    <span>Take our quiz to help you decide</span>
                 </div>
             </div>
         </div>

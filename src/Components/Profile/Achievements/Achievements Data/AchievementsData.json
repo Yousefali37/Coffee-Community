@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "badge": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741954660/Morning_Brew_Master_q90cjp.jpg",
+        "title": "Morning Brew Master",
+        "desc": "Start your day with the perfect cup of coffee!"
+    },
+    {
+        "id": 2,
+        "badge": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741954653/Latte_Art_Pro_dbmxkl.jpg",
+        "title": "Latte Art Pro",
+        "desc": "Create stunning latte art and impress everyone!"
+    },
+    {
+        "id": 3,
+        "badge": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741954652/Coffee_Tasting_Expert_efwsvv.jpg",
+        "title": "Coffee Tasting Expert",
+        "desc": "Explore and savor the flavors of coffee like a pro!"
+    },
+    {
+        "id": 4,
+        "badge": "https://res.cloudinary.com/dtj4jwfs7/image/upload/v1741954656/Cold_Brew_Connoisseur_pgtzaf.jpg",
+        "title": "Cold Brew Connoisseur",
+        "desc": "Master the art of cold brew for the smoothest coffee!"
+    }
+]

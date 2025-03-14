@@ -42,6 +42,7 @@ function Header() {
                             <NavDropdown.Item className="nav-link"><Link to={'/blog'} className="nav-link" onClick={handleNavClose}>Our Blog</Link></NavDropdown.Item>
                             <NavDropdown.Item className="nav-link"><Link to={'/community'} className="nav-link" onClick={handleNavClose}>Our Community</Link></NavDropdown.Item>
                             <NavDropdown.Item className="nav-link"><Link to={'/challenges'} className="nav-link" onClick={handleNavClose}>Coffee Challenges</Link></NavDropdown.Item>
+                            <NavDropdown.Item className="nav-link"><Link to={'/voting'} className="nav-link" onClick={handleNavClose}>Community Voting</Link></NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     <ProfileMenu />
