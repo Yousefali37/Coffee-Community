@@ -15,3 +15,6 @@ A community-driven coffee platform where users can explore expert blogs, share t
 - **Languages**: HTML, CSS, JavaScript  
 - **Frameworks**: React, Bootstrap  
 - **Icons**: FontAwesome, Material-UI  
+
+## 🎥 Demo Video
+- **https://drive.google.com/file/d/19rUqblh4NGwx-WUxGPttAhwJ5mCxaxNP/view?usp=sharing**
