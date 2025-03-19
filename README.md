@@ -44,4 +44,5 @@ Welcome to the **Coffee Community**! This is a vibrant online platform for coffe
 ---
 
 ## Demo Video
-- **https://drive.google.com/file/d/19rUqblh4NGwx-WUxGPttAhwJ5mCxaxNP/view?usp=sharing**
+
+**Check out the website in action**: [Demo](https://drive.google.com/file/d/19rUqblh4NGwx-WUxGPttAhwJ5mCxaxNP/view?usp=sharing)
