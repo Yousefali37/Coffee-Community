@@ -7,13 +7,14 @@ import './Recipes.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import { Pagination } from "@mui/material";
 
 function Recipes() {
 
     const navigate = useNavigate();
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [recipesPerPage] = useState(3);
+    const [recipesPerPage] = useState(2);
 
     const [filters, setFilters] = useState({
         method: "",
@@ -45,18 +46,6 @@ function Recipes() {
         setCurrentPage(1);
     };
 
-    const handleNextPage = () => {
-        if (currentPage < Math.ceil(filteredRecipes.length / recipesPerPage)) {
-            setCurrentPage(currentPage + 1);
-        }
-    };
-
-    const handlePreviousPage = () => {
-        if (currentPage > 1) {
-            setCurrentPage(currentPage - 1);
-        }
-    };
-
     return (
         <div className="pb-5 recipes cssanimation fadeIn">
             <HeroSection
@@ -82,23 +71,16 @@ function Recipes() {
                     />
                 ))}
             </div>
-            <div className="pagination-controls mb-5">
-                <button 
-                    className='pagination-button' 
-                    onClick={handlePreviousPage} 
-                    disabled={currentPage === 1}
-                >
-                    Previous
-                </button>
-                <span className="pagination-page">Page {currentPage}</span>
-                <button 
-                    className='pagination-button' 
-                    onClick={handleNextPage} 
-                    disabled={currentPage === Math.ceil(filteredRecipes.length / recipesPerPage)}
-                >
-                    Next
-                </button>
+
+            <div className="d-flex justify-content-center align-items-center m-5">
+                <Pagination
+                    count={Math.ceil(filteredRecipes.length / recipesPerPage)}
+                    page={currentPage}
+                    onChange={(event, value) => setCurrentPage(value)}
+                />
             </div>
+
+
             <div className="floating-quiz" onClick={() => {
                 navigate('/quiz')
             }}>

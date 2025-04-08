@@ -27,7 +27,7 @@ function Header() {
                         Brew&apos;s of Anarchy
                     </Navbar.Brand>
                 </div>
-                <div className="col-6 d-flex justify-content-center">
+                <div className="d-flex justify-content-center">
                     <Navbar.Toggle
                         aria-controls="basic-navbar-nav"
                         onClick={() => setIsNavOpen(!isNavOpen)}

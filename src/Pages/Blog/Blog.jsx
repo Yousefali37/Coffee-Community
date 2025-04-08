@@ -1,3 +1,4 @@
+import { Pagination } from "@mui/material";
 import HeroSection from "../../Components/Hero Section/HeroSection";
 import BlogCard from './../../Components/Blog/Blog Card/BlogCard';
 import data from './Blog Data/BlogData.json';
@@ -5,21 +6,16 @@ import { useState } from "react";
 
 function Blog() {
     const [category, setCategory] = useState("all posts");
-    const [visibleCardsCount, setVisibleCardsCount] = useState(3);
+    const [blogsPerPage] = useState(4);
+    const [currentPage, setCurrentPage] = useState(1);
 
     const filteredBlogs = category === "all posts"
         ? data
         : data.filter(blog => blog.category.toLowerCase() === category);
 
-    const isMaxCardsVisible = filteredBlogs.length <= visibleCardsCount;
-
-    const handleLoadMore = () => {
-        setVisibleCardsCount(prevCount => prevCount + 3);
-    };
-
-    const handleLoadLess = () => {
-        setVisibleCardsCount(3);
-    };
+    const indexOfLastBlog = currentPage * blogsPerPage;
+    const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+    const currentBlogs = filteredBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
 
     return (
         <div className="d-flex flex-column cssanimation fadeIn">
@@ -34,7 +30,7 @@ function Blog() {
             {/* Blog Cards Grid */}
             <div className="container mt-5">
                 <div className="row justify-content-center g-4">
-                    {filteredBlogs.slice(0, visibleCardsCount).map((blog) => (
+                    {currentBlogs.map((blog) => (
                         <div key={blog.id} className="col-12 col-md-6 col-lg-4 d-flex justify-content-center cssanimation fadeIn">
                             <BlogCard
                                 id={blog.id}
@@ -48,12 +44,12 @@ function Blog() {
                         </div>
                     ))}
                 </div>
-                <div className="m-4">
-                    {!isMaxCardsVisible ? (
-                        <button onClick={handleLoadMore} className="see-more">See More</button>
-                    ) : (
-                        <button onClick={handleLoadLess} className="see-more">See Less</button>
-                    )}
+                <div className="d-flex justify-content-center align-items-center m-5">
+                    <Pagination
+                        count={Math.ceil(filteredBlogs.length / blogsPerPage)}
+                        page={currentPage}
+                        onChange={(event, value) => setCurrentPage(value)}
+                    />
                 </div>
             </div>
         </div>
